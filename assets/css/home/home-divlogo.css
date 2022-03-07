@@ -1,0 +1,19 @@
+.home__divlogo{
+    position: relative;
+    width: 100vw;
+    height: 270px;
+    margin-top: 30px;
+}
+
+.home__divlogo__iconloop{
+    position: absolute;
+    height: 260px;
+    left: calc(50% - 130px)
+}
+
+.home__divlogo__icon{
+    position: absolute;
+    height: 160px;
+    left: calc(50% - 80px);
+    top: 50px;
+}   

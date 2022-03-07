@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --verdelogo: #52A555;
+    --verdepositivo: #1A8300;
+    --vermelhonegativo: #A52323;
+    --roxotoxic: #78008B;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
