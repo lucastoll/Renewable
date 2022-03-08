@@ -1,0 +1,15 @@
+.home__arrow{
+    justify-self: flex-end;
+    position: absolute;
+    bottom: 100px;
+    animation: arrow_animation 1s alternate infinite;
+}
+
+@keyframes arrow_animation {
+    from{
+        bottom: 100px;
+    }
+    to{
+        bottom: 40px;
+    }
+}

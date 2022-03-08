@@ -8,7 +8,8 @@
 .home__divlogo__iconloop{
     position: absolute;
     height: 260px;
-    left: calc(50% - 130px)
+    left: calc(50% - 130px);
+    transform: rotate(20deg);
 }
 
 .home__divlogo__icon{
