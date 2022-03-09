@@ -12,3 +12,8 @@ body{
     padding: 0%;
     font-family: 'Quicksand', sans-serif;
 }
+
+.scrollbox{
+    height: 300px;
+    width: 100vw;
+}
