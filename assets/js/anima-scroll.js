@@ -1,31 +1,108 @@
-let divStop = document.getElementById('divstop')
-var elementDivStopTop = divStop.getBoundingClientRect().top
-let passport = 1;
-
-function ScrollCaseBox(controle){
-    let scrollBox = document.getElementById('scrollbox') /* M */
-    var elementTop = scrollBox.getBoundingClientRect().top; /* m */
-    var windowHeight = window.innerHeight;  /* height do dispositivo */ 
-    var elementVisible = 200;
-
-
-    console.log("elementTop = ", elementTop, "elementDivStopTop = ", elementDivStopTop, "scrollBox off height = ", scrollBox.offsetHeight, "controle = ", controle)
-
-    if(elementTop > 500){
-        if(elementTop < windowHeight - elementVisible && controle == 1)  /* distancia ate o topo < altura da pag - altura da revelação  */
-        {                                     
-            scrollBox.style.backgroundColor = "green"
-            divStop.scrollIntoView(true);
-        }
-        else{scrollBox.style.backgroundColor = "red"} 
-    }
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function lockScroll(){
+    $html = $('html'); 
+    $body = $('body'); 
+    var initWidth = $body.outerWidth();
+    var initHeight = $body.outerHeight();
+
+    var scrollPosition = [
+        self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+        self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+    ];
+    $html.data('scroll-position', scrollPosition);
+    $html.data('previous-overflow', $html.css('overflow'));
+    $html.css('overflow', 'hidden');
+    window.scrollTo(scrollPosition[0], scrollPosition[1]);   
+
+    var marginR = $body.outerWidth()-initWidth;
+    var marginB = $body.outerHeight()-initHeight; 
+    $body.css({'margin-right': marginR,'margin-bottom': marginB});
+} 
+
+function unlockScroll(){
+    $html = $('html');
+    $body = $('body');
+    $html.css('overflow', $html.data('previous-overflow'));
+    var scrollPosition = $html.data('scroll-position');
+    window.scrollTo(scrollPosition[0], scrollPosition[1]);    
+
+    $body.css({'margin-right': 0, 'margin-bottom': 0});
+}
+
+let arrow = document.getElementById("flecha")
+let divStop = document.getElementById("divstop")
+let scrollBox = document.getElementById("scrollbox");
+
+/* Se clicar na flecha -> prox seção */
+arrow.addEventListener("click", () => {
+    divStop.scrollIntoView({block: "end", behavior: "smooth"});
+})
 
 
-window.addEventListener("scroll", function (){
-    ScrollCaseBox(passport)
+
+
+
+
+
+
+
+
+
+/* 
+
+const observer = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting == true) {
+        document.body.setAttribute('style','overflow:hidden;');
+        console.log(entry.target.offsetTop);
+        observer.unobserve(scrollBox)
+
+        setTimeout(function(){
+         document.body.setAttribute('style','overflow:visible;');       
+         divStop.scrollIntoView({block: "end", behavior: "smooth"});
+         }, 250);
+  
+      }
+    });
+  },
+  {threshold: 0},
+);
+
+
+observer.observe(scrollBox);
+
+ */
+
+
+
+/* 
+const scroller = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+        document.body.setAttribute('style','overflow:hidden;');
+        console.log("aa")
+        setTimeout(function(){
+         document.body.setAttribute('style','overflow:visible;');       
+         entry.target.scrollIntoView(true);
+         }, 250);
+    }
+  });
 });
+
+scroller.observe(scrollBox);
+
+ */
+
+
+
+
+
+
+
 
 
 /* window.scroll(0, y); */

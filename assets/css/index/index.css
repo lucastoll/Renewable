@@ -7,13 +7,17 @@
     --roxotoxic: #78008B;
 }
 
+
 body{
     margin: 0%;
     padding: 0%;
     font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
 }
 
 .scrollbox{
     height: 300px;
     width: 100vw;
+    background-color: #1A8300;
 }
+
