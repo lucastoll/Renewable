@@ -2,9 +2,9 @@
     max-width: 280px;
     padding: 0px 45px;
     margin: 0px;
-
+    box-sizing: content-box;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
 }

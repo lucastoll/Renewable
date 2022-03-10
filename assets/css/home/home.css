@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 110vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
+    margin: 0;
 }
