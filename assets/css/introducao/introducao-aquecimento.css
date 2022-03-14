@@ -9,16 +9,14 @@
 }
 
 .introducao__aquecimento--animacao{
-    width: 3px;
-    height: 0px;
+    width: 10px;
+    height: 13px;
     background-color: var(--vermelhonegativo);
     position: absolute;
     left: 11px;
     bottom: 20px;
-    animation: termometro 4s forwards;
-    animation-iteration-count: 1;
-    animation-delay: 6s;
-
+/*     animation: termometro 4s forwards;
+    animation-delay: 6s; */
 } 
 
 @keyframes termometro {
@@ -26,6 +24,6 @@
         height: 0px;
     }
     100%{
-        height: 36.5px;
+        height: 36px;
     }
 }

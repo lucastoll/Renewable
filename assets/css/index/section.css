@@ -39,3 +39,43 @@ transition-delay: 1.5s;
 section.is-visible .t5 {
 transition-delay: 2s;
 }
+
+section.is-visible .t6 {
+transition-delay: 2.5s;
+}
+
+section.is-visible .t7 {
+transition-delay: 3s;
+}
+
+section.is-visible .t8 {
+transition-delay: 3.5s;
+}
+
+section.is-visible .t9 {
+transition-delay: 4s;
+}
+
+section.is-visible .t10 {
+transition-delay: 4.5s;
+}
+
+section.is-visible .t11 {
+transition-delay: 5s;
+}
+
+section.is-visible .t12 {
+transition-delay: 5.5s;
+}
+
+section.is-visible .t13 {
+transition-delay: 6s;
+}
+
+section.is-visible .t14 {
+transition-delay: 6.5s;
+}
+
+section.is-visible .t15 {
+transition-delay: 7s;
+}
