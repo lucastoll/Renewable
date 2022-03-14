@@ -1,0 +1,15 @@
+.introducao__divVetores__divCarvao__roda{
+    position: absolute;
+    transform: rotate(0deg);
+    width: 12px;
+}
+
+.introducao__divVetores__divCarvao__roda.roda1{
+    bottom: 5px;
+    left: 26px;
+}
+
+.introducao__divVetores__divCarvao__roda.roda2{
+    bottom: 5px;
+    right: 26px;
+}

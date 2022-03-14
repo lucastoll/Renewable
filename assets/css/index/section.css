@@ -1,0 +1,41 @@
+section {
+	height: 100vh;
+	scroll-snap-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    scroll-snap-stop: always;
+    text-align: left;
+}
+
+.section__titulo{
+    font-size: 48px;
+    margin: 10px;
+    text-align: center;
+}
+
+section .content {
+opacity: 0;
+}
+
+section.is-visible .content {
+opacity: 1;
+transition: opacity 1500ms;
+}
+
+section.is-visible .t2 {
+transition-delay: 0.5s;
+}
+
+section.is-visible .t3 {
+transition-delay: 1s;
+}
+
+section.is-visible .t4 {
+transition-delay: 1.5s;
+}
+
+section.is-visible .t5 {
+transition-delay: 2s;
+}

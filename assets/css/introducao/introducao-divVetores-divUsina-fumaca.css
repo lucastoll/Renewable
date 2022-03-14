@@ -1,0 +1,91 @@
+.introducao__divVetores__divUsina__fumaca{
+    position: absolute;
+    left: 16px;
+    top: 15px;
+    opacity: 0;
+}
+
+.introducao__divVetores__divUsina__fumaca.fumaca1{
+    animation: anima__f1 4s infinite;
+}
+
+.introducao__divVetores__divUsina__fumaca.fumaca2{
+    animation: anima__f2 4s infinite;
+    animation-delay: 0.5s;
+}
+
+.introducao__divVetores__divUsina__fumaca.fumaca3{
+    animation: anima__f3 4s infinite;
+    animation-delay: 1.5s;
+}
+
+
+.introducao__divVetores__divUsina__fumaca.fumaca4{
+    left: 4px;
+    animation: anima__f4 4s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes anima__f1 {
+    0% {
+        left: 16px;
+        top: 15px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 22px;
+        top: -15px;
+        opacity: 0;
+    }
+}
+
+@keyframes anima__f2 {
+    0% {
+        left: 16px;
+        top: 15px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 32px;
+        top: -8px;
+        opacity: 0;
+    }
+}
+
+@keyframes anima__f3 {
+    0% {
+        left: 16px;
+        top: 15px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 28px;
+        top: -8px;
+        opacity: 0;
+    }
+}
+
+@keyframes anima__f4 {
+    0% {
+        left: 12px;
+        top: 15px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 16px;
+        top: -8px;
+        opacity: 0;
+    }
+}

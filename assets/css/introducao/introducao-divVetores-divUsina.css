@@ -1,0 +1,9 @@
+.introducao__divVetores__divUsina{
+    background-image: url('../../img/introducao_animacao/usina.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    margin-right: 5px;
+}
