@@ -1,7 +1,8 @@
 .introducao__paragrafo{
     max-width: 800px;
     font-size: 16px;
-    text-align: left;
+    text-align: justify;
+    font-weight: 500;
 }
 
 .introducao__paragrafo--spanRoxo{
@@ -14,4 +15,16 @@
 
 .introducao__paragrafo--spanVerde{
     color: var(--verdepositivo);
+}
+
+@media screen and (min-width: 360px) {
+    .introducao__paragrafo{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 420px) {
+    .introducao__paragrafo{
+        font-size: 18px;
+    }
 }
