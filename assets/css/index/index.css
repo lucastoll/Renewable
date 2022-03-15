@@ -12,11 +12,20 @@
 	box-sizing: border-box;
 }
 
+.backbutton{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
+    background-color: #FAFAFA;
 }
 
 .scroll-container {
@@ -25,3 +34,4 @@ body {
 	scroll-snap-type: y mandatory;
     overflow-x: hidden;
 }
+

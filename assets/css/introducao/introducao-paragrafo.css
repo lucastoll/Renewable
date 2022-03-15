@@ -1,6 +1,6 @@
 .introducao__paragrafo{
     max-width: 800px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: justify;
     font-weight: 500;
 }
@@ -19,12 +19,12 @@
 
 @media screen and (min-width: 360px) {
     .introducao__paragrafo{
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
 @media screen and (min-width: 420px) {
     .introducao__paragrafo{
-        font-size: 18px;
+        font-size: 17px;
     }
 }

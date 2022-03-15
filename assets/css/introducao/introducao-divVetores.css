@@ -1,7 +1,7 @@
 .introducao__divVetores{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 105%;
     height: 80px;
     justify-content: space-between;
     padding: 0px 0px;
