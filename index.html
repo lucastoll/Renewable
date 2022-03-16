@@ -7,6 +7,7 @@
     <!-- INDEX (GERAL) -->
     <link rel="stylesheet" href="assets/css/index/index.css">
     <link rel="stylesheet" href="assets/css/index/section.css">
+    <link rel="stylesheet" href="assets/css/index/backbutton.css">
     <!-- SECTION HOME -->
     <link rel="stylesheet" href="assets/css/home/home.css">
     <link rel="stylesheet" href="assets/css/home/home-titulo.css">
@@ -29,9 +30,10 @@
     <title>Renewable</title>
 </head>
 <body>
- <main class="scroll-container">
-    <!-- <img class="backbutton" src="assets/img/backbutton.png"> -->
-	<section class="home">
+ <main class="scroll-container" id="main">
+    <a href="#1"><img class="backbutton" src="assets/img/backbuttonn.png" data-backbutton></a>
+    
+	<section class="home" id="1" data-section-home>
 		<div class="home__divlogo content"> 
             <img class="home__divlogo__iconloop" src="assets/img/icon_loop.png" alt="" data-divlogo-iconloop>
             <img class="home__divlogo__icon" src="assets/img/icon.png" alt="">
@@ -41,8 +43,8 @@
         <img id="flecha" class="arrow home__arrow content t4" src="assets/img/arrow.svg" alt="Proxima seção">
 	</section>
 
-    <section class="introducao">
-        <h1 class="section__titulo content">Introdução</h1>
+    <section class="introducao" data-section-introducao>
+        <h1 class="introducao__titulo section__titulo content">Introdução</h1>
         <p class="introducao__paragrafo content t2">
             Para entendermos melhor o conceito de <strong><span class="introducao__paragrafo--spanVerde">energias renováveis</span></strong>, primeiro temos que saber o que são as energias <strong><span class="introducao__paragrafo--spanVermelho">não renováveis</span></strong> e como elas afetam <strong>negativamente</strong> nosso planeta, basicamente, esse tipo de energia funciona através da base de utilizar <strong>recursos finitos</strong> da natureza como fonte de energia, isso significa que para essas energias funcionarem elas retiram matéria prima do planeta que não vai reposta pela natureza, causando efeitos prejudiciais ao meio ambiente gradualmente. 
         </p>
