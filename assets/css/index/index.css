@@ -26,3 +26,16 @@ body {
     overflow-x: hidden;
 }
 
+
+.spanRoxo{
+    color: var(--roxotoxic);
+}
+
+.spanVermelho{
+    color: var(--vermelhonegativo);
+}
+
+.spanVerde{
+    color: var(--verdepositivo);
+}
+

@@ -1,30 +1,18 @@
 .introducao__paragrafo{
     max-width: 800px;
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
     font-weight: 500;
 }
 
-.introducao__paragrafo--spanRoxo{
-    color: var(--roxotoxic);
-}
-
-.introducao__paragrafo--spanVermelho{
-    color: var(--vermelhonegativo);
-}
-
-.introducao__paragrafo--spanVerde{
-    color: var(--verdepositivo);
-}
-
 @media screen and (min-width: 360px) {
     .introducao__paragrafo{
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
 @media screen and (min-width: 420px) {
     .introducao__paragrafo{
-        font-size: 17px;
+        font-size: 16px;
     }
 }

@@ -1,4 +1,8 @@
 .introducao{
     padding: 30px;
+    position: relative;
 }
 
+.introducao__titulo{
+    font-size: 30px;
+}
