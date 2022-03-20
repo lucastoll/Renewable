@@ -12,7 +12,7 @@
     height: 0px;
     background-color: var(--vermelhonegativo);
     position: absolute;
-    left: 9px;
+    left: 10px;
     bottom: 30px;
     animation: termometro 4s forwards 6s, termometro_variacao 3s infinite alternate 10s;
 } 

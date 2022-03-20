@@ -1,0 +1,92 @@
+.desenvolvimento__divVetores__divEolica{
+    background-image: url('../../img/desenvolvimento_animacao/haste.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.desenvolvimento__divVetores__divEolica img{
+    position: absolute;
+    z-index: -1;
+}
+
+.desenvolvimento__divVetores__divEolica img:nth-child(1){
+    left: 4px;
+    z-index: 1;    
+}
+
+.desenvolvimento__divVetores__divEolica img:nth-child(2){
+    top: 30px;
+    right: -15px;
+    animation: ar1 6s infinite 1s;
+    opacity: 0;
+}
+
+.desenvolvimento__divVetores__divEolica img:nth-child(3){
+    top: 10px;
+    right: -5px;
+    animation: ar2 6s infinite 2s;
+    opacity: 0;
+}
+
+.desenvolvimento__divVetores__divEolica img:nth-child(4){
+    top: 5px;
+    right: -5px;
+    animation: ar3 6s infinite 3s;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.desenvolvimento__divVetores__divEolica img:nth-child(5){
+    top: 20px;
+    right: -5px;
+    animation: ar4 6s infinite 4s;
+    opacity: 0;
+}
+
+@keyframes ar1 {
+    0%{
+        right: -15px;
+        opacity: 1;
+    }
+    100%{
+        right: 60px;
+        opacity: 0;
+    }
+}
+
+@keyframes ar2 {
+    0%{
+        right: -15px;
+        opacity: 1;
+    }
+    100%{
+        right: 50px;
+        opacity: 0;
+    }
+}
+
+@keyframes ar3 {
+    0%{
+        right: -15px;
+        opacity: 1;
+    }
+    100%{
+        right: 70px;
+        opacity: 0;
+    }
+}
+
+@keyframes ar4 {
+    0%{
+        right: -15px;
+        opacity: 1;
+    }
+    100%{
+        right: 80px;
+        opacity: 0;
+    }
+}
