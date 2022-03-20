@@ -5,8 +5,8 @@
     --verdepositivo: #1A8300;
     --vermelhonegativo: #A52323;
     --roxotoxic: #78008B;
+    --azulfuturo: #2281A7;
 }
-
 
 * {
 	box-sizing: border-box;
@@ -26,7 +26,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .spanRoxo{
     color: var(--roxotoxic);
 }
@@ -39,3 +38,6 @@ body {
     color: var(--verdepositivo);
 }
 
+.spanAzul{
+    color: var(--azulfuturo);
+}

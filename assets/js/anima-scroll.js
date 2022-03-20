@@ -1,6 +1,3 @@
-
-
-
 const sections = [...document.querySelectorAll("section")];
 let backbutton = document.querySelector("[data-backbutton]")
 
@@ -47,11 +44,11 @@ main.onscroll = () => didScroll = true; /* No scroll seta a variável para true 
 setInterval(() => { /* O site vê em um intervalo de 100ms se o usuário esta usando o scroll, caso esteja seta a variável para falso e mexe na opacidade  */
     if ( didScroll ) {
         didScroll = false;
-        backbutton.style.opacity = "0.50"
+        backbutton.style.opacity = "0.3"
         
     }
     else{
-      backbutton.style.opacity = "1"
+      backbutton.style.opacity = "0.6"
     }
 }, 200);
 
