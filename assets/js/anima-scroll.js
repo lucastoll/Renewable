@@ -17,10 +17,16 @@ target.classList.add("is-visible");
 if(target.classList.contains("home"))
 {
   backbutton.style.animation = "backbuttonLeave 0.5s forwards"
+  setTimeout(() => {
+    backbutton.style.display = "none";
+  }, 1000)
 }
 else
 {
   backbutton.style.animation = "backbuttonEnter 0.5s forwards"
+  setTimeout(() => {
+    backbutton.style.display = "block";
+  }, 1000)
 }
 
 }
