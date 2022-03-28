@@ -25,7 +25,7 @@ else
 {
   backbutton.style.animation = "backbuttonEnter 0.5s forwards"
   setTimeout(() => {
-    backbutton.style.display = "block";
+    /* backbutton.style.display = "block"; */
   }, 1000)
 }
 

@@ -9,3 +9,26 @@
     background-clip: text;
 }
 
+@media screen and (min-width: 1024px) {
+    .home__titulo{
+        align-self: flex-start;
+        font-size: 64px;
+        margin: 30px 0px;
+    }   
+}
+
+
+@media screen and (min-width: 1200px) {
+    .home__titulo{
+        font-size: 70px;
+    }   
+}
+
+   
+
+@media screen and (min-width: 1440px) {
+    .home__titulo{
+        font-size: 76px;
+    }   
+}
+

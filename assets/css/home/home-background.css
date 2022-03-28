@@ -1,0 +1,56 @@
+.home__background{
+    position: absolute;
+    bottom: 165px;
+    z-index: -1;
+    width: 800px;
+    right: 1px;
+}
+
+.wrapper--homebackground{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    max-width: 1920px;
+    max-height: 1080px;
+}
+
+@media screen and (max-width: 1023px) {
+    .home__background{
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .home__background{
+        display: block;
+        width: 700px;
+        bottom: 100px;
+        right: 1vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .home__background{
+        display: block;
+        width: 800px;
+        bottom: 80px;
+        right: 4vw;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .home__background{
+        display: block;
+        width: 900px;
+        bottom: 55px;
+        right: 2vw;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .home__background{
+        display: block;
+        width: 950px;
+        top: -100px;
+        right: 7vw;
+    }
+}
