@@ -9,11 +9,17 @@ section {
 }
 
 .section__titulo{
-    font-size: 48px;
+    font-size: 30px;
     margin: 10px;
     text-align: center;
 }
 
 .section__preenchimento{
     margin-bottom: 250px;
+}
+
+@media screen and (min-width: 1023px) {
+    .section__titulo{
+        font-size: 64px;
+    }
 }

@@ -1,11 +1,13 @@
 .home__arrow{
-    justify-self: flex-end;
-    position: absolute;
-    bottom: 150px;
-    animation: arrow_animation_mobile 1s alternate infinite;
+    position: block;
+    align-self: center;
+    width: 39px;
+    height: 23px;
+
+   /*  animation: arrow_animation_mobile 1s alternate infinite; */
 }
 
-@keyframes arrow_animation_mobile {
+/* @keyframes arrow_animation_mobile {
     from{
         bottom: 150px;
     }
@@ -28,4 +30,4 @@
         bottom: 100px;
         animation: arrow_animation_desktop 1s alternate infinite;
     }
-}
+} */
