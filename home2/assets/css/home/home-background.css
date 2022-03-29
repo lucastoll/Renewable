@@ -1,0 +1,53 @@
+.home__background{
+    display: none;
+    width: 600px;
+    height: 600px;
+    z-index: -1;
+    position: relative;
+}
+
+.home__background__imagem{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    .home__background{
+        display: flex;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1124px){
+    .home__background{
+        width: 700px;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1224px){
+    .home__background{
+        width: 800px;
+        height: 800px;
+    }
+}
+
+@media screen and (min-width: 1324px){
+    .home__background{
+        width: 900px;
+        height: 900px;
+    }
+}
+
+@media screen and (min-width: 1424px){
+    .home__background{
+        width: 1100px;
+        height: 1000px;
+    }
+
+    .home__background__imagem{
+        position: absolute;
+        top: -110px;
+    }
+}
+

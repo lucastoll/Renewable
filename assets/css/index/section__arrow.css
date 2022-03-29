@@ -1,0 +1,17 @@
+.section__arrow{
+    justify-self: flex-end;
+    position: absolute;
+    bottom: 450px;
+    animation: arrow_animation_section 1s alternate infinite;
+}
+
+
+
+@keyframes arrow_animation_section {
+    from{
+        bottom: 250px;
+    }
+    to{
+        bottom: 170px;
+    }
+}

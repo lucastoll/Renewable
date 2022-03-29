@@ -1,0 +1,10 @@
+.introducao__divVetores__divPetroleo{
+    background-image: url('../../img/introducao_animacao/petroleo.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+}
+

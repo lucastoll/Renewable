@@ -1,0 +1,9 @@
+.desenvolvimento__divVetores{
+    display: flex;
+    flex-direction: row;
+    width: 105%;
+    height: 80px;
+    max-width: 500px;
+    justify-content: space-between;
+    padding: 0px 0px;
+}

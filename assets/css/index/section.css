@@ -1,0 +1,19 @@
+section {
+	scroll-snap-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    scroll-snap-stop: always;
+    text-align: left;
+}
+
+.section__titulo{
+    font-size: 48px;
+    margin: 10px;
+    text-align: center;
+}
+
+.section__preenchimento{
+    margin-bottom: 250px;
+}

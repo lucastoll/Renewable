@@ -1,0 +1,37 @@
+.introducao__aquecimento{
+    background-image: url('../../img/introducao_animacao/aquecimento.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.introducao__aquecimento--animacao{
+    width: 3px;
+    height: 0px;
+    background-color: var(--vermelhonegativo);
+    position: absolute;
+    left: 11px;
+    bottom: 30px;
+    animation: termometro 4s forwards 6s, termometro_variacao 3s infinite alternate 10s;
+} 
+
+@keyframes termometro {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 28px;
+    }
+}
+
+@keyframes termometro_variacao {
+    0%{
+        height: 28px;
+    }
+    100%{
+        height: 32px;
+    }
+}
+
