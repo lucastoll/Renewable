@@ -54,3 +54,12 @@
         right: 7vw;
     }
 }
+
+@media screen and (min-width: 1900px) {
+    .home__background{
+        display: block;
+        width: 1250px;
+        top: -100px;
+        right: 0vw;
+    }
+}
