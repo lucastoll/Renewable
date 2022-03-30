@@ -1,4 +1,4 @@
-section {
+.introducao, .desenvolvimento {
 	scroll-snap-align: start;
     align-items: center;
     display: flex;
@@ -16,4 +16,11 @@ section {
 
 .section__preenchimento{
     margin-bottom: 250px;
+}
+
+
+@media screen and (min-width: 1023px) {
+    .section__titulo{
+        font-size: 46px;
+    }
 }

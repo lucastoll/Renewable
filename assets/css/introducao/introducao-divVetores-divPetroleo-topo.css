@@ -3,3 +3,24 @@
     top: 11px;
     right: 0px;
 }
+
+.petroleoDesktop{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .introducao__divVetores__divPetroleo__topo{
+        width: 80px;
+        top: 8px;
+        right: 3px;
+    }
+
+    .petroleoDesktop{
+        display: block;
+    }
+
+    .petroleoMobile{
+        display: none;
+    }
+    
+}

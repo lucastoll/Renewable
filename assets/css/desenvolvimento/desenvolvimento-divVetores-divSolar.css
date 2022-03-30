@@ -4,19 +4,29 @@
     position: relative;
 }
 
-.desenvolvimento__divVetores__divSolar img:nth-child(1){
+.desenvolvimento__divVetores__divSolar__painel__mobile{
     position: absolute;
     bottom: 0px;
     width: 40px;
     height: 30px;
 }
 
-.desenvolvimento__divVetores__divSolar img:nth-child(2){
+.desenvolvimento__divVetores__divSolar__sol__mobile{
     position: absolute;
     top: -5px;
     right: -10px;
     animation: animaSol 4s infinite alternate linear, moveSol 10s infinite alternate linear;
 }
+
+.desenvolvimento__divVetores__divSolar__painel__desktop{
+    display: none;
+}
+
+.desenvolvimento__divVetores__divSolar__sol__desktop{
+    display: none;
+}
+
+
 
 @keyframes animaSol {
     0%{
@@ -33,5 +43,33 @@
     }
     100%{
         right: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .desenvolvimento__divVetores__divSolar{
+        margin-top: 20px;
+    }
+
+    .desenvolvimento__divVetores__divSolar__painel__desktop{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .desenvolvimento__divVetores__divSolar__sol__desktop{
+        display: block;
+        animation: animaSol 4s infinite alternate linear, moveSol 10s infinite alternate linear;
+        top: -30px;
+        position: absolute;
+    }
+
+    .desenvolvimento__divVetores__divSolar__painel__mobile{
+        display: none;
+    }
+    
+    
+    .desenvolvimento__divVetores__divSolar__sol__mobile{
+        display: none;
     }
 }

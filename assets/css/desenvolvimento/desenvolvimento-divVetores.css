@@ -7,3 +7,9 @@
     justify-content: space-between;
     padding: 0px 0px;
 }
+
+@media screen and (min-width: 1024px){
+    .desenvolvimento__divVetores{
+        margin-top: 10px;
+    }
+}

@@ -3,3 +3,9 @@
     width: 100%;
     max-width: 470px;
 }
+
+@media screen and (min-width: 1024px) {
+    .introducao__bracket{
+        margin: 20px 0px;
+    }
+}

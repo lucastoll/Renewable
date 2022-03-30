@@ -1,0 +1,27 @@
+.home__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 102vw;
+    overflow: hidden;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1024px) {
+    .home__conteudo{
+        width: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1424px) {
+    .home__conteudo{
+        margin-top: 100px;
+        justify-content: flex-start;
+    }
+}
+
+
+

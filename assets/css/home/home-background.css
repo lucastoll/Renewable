@@ -1,65 +1,54 @@
 .home__background{
-    position: absolute;
-    bottom: 165px;
+    display: none;
+    width: 600px;
+    height: 600px;
     z-index: -1;
-    width: 800px;
-    right: 1px;
+    position: relative;
 }
 
-.wrapper--homebackground{
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    max-width: 1920px;
-    max-height: 1080px;
+.home__background__imagem{
+    width: 100%;
+    height: 100%;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 1024px){
     .home__background{
-        display: none;
+        display: flex;
+        height: 100%;
     }
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1124px){
     .home__background{
-        display: block;
         width: 700px;
-        bottom: 100px;
-        right: 1vw;
+        height: 700px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1224px){
     .home__background{
-        display: block;
         width: 800px;
-        bottom: 80px;
-        right: 4vw;
+        height: 800px;
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1324px){
     .home__background{
-        display: block;
         width: 900px;
-        bottom: 55px;
-        right: 2vw;
+        height: 900px;
     }
 }
 
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1424px){
     .home__background{
-        display: block;
-        width: 950px;
-        top: -100px;
-        right: 7vw;
+        width: 1100px;
+        height: 1000px;
+    }
+
+    .home__background__imagem{
+        position: absolute;
+        top: -110px;
+        left: 50px;
     }
 }
 
-@media screen and (min-width: 1900px) {
-    .home__background{
-        display: block;
-        width: 1250px;
-        top: -100px;
-        right: 0vw;
-    }
-}

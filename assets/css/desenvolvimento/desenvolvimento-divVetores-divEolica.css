@@ -6,45 +6,78 @@
     height: 60px;
     position: relative;
     overflow: hidden;
+    margin-left: 10px;
 }
 
-.desenvolvimento__divVetores__divEolica img{
+@media screen and (min-width: 1024px) {
+    .desenvolvimento__divVetores__divEolica{
+        background-image: url('../../img/desenvolvimento_animacao/haste_desktop.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 90px;
+        height: 90px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.desenvolvimento__divVetores__divEolica__helice__mobile{
     position: absolute;
-    z-index: -1;
-}
-
-.desenvolvimento__divVetores__divEolica img:nth-child(1){
+    z-index: 1;
     left: 4px;
-    z-index: 1;    
 }
 
-.desenvolvimento__divVetores__divEolica img:nth-child(2){
+.desenvolvimento__divVetores__divEolica__helice__desktop{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .desenvolvimento__divVetores__divEolica__helice__mobile{
+        display: none;
+    }
+    
+    .desenvolvimento__divVetores__divEolica__helice__desktop{
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 2px;
+    }
+}
+
+
+.vento1{
     top: 30px;
     right: -15px;
     animation: ar1 6s infinite 1s;
-    opacity: 0;
+    opacity: 1;
+    position: absolute;
 }
 
-.desenvolvimento__divVetores__divEolica img:nth-child(3){
+.vento2{
     top: 10px;
     right: -5px;
     animation: ar2 6s infinite 2s;
     opacity: 0;
+    position: absolute;
 }
 
-.desenvolvimento__divVetores__divEolica img:nth-child(4){
+.vento3{
     top: 5px;
     right: -5px;
     animation: ar3 6s infinite 3s;
     opacity: 0;
     transition: opacity 1s;
+    position: absolute;
 }
 
-.desenvolvimento__divVetores__divEolica img:nth-child(5){
+.vento4{
     top: 20px;
     right: -5px;
     animation: ar4 6s infinite 4s;
     opacity: 0;
+    position: absolute;
 }
 
 @keyframes ar1 {
@@ -54,7 +87,6 @@
     }
     100%{
         right: 60px;
-        opacity: 0;
     }
 }
 
@@ -87,6 +119,108 @@
     }
     100%{
         right: 80px;
+        opacity: 0;
+    }
+}
+
+.vento5{
+    display: none;
+}
+
+.vento6{
+    display: none;
+}
+
+.vento7{
+    display: none;
+}
+
+.vento8{
+    display: none;
+}
+
+@keyframes ar5 {
+    0%{
+        right: -35px;
+        opacity: 1;
+    }
+    100%{
+        right: 60px;
+        opacity: 0;
+    }
+}
+
+@keyframes ar6 {
+    0%{
+        right: -35px;
+        opacity: 1;
+    }
+    100%{
+        right: 60px;
+        opacity: 0;
+    }
+}
+
+@keyframes ar7 {
+    0%{
+        right: -35px;
+        opacity: 1;
+    }
+    100%{
+        right: 60px;
+        opacity: 0;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .vento1{
+        display: none;
+    }
+    
+    .vento2{
+        display: none;
+    }
+
+    .vento3{
+        display: none;
+    }
+
+    .vento4{
+        display: none;
+    }
+
+    .vento5{
+        display: block;
+        animation: ar4 6s infinite 1s;
+        position: absolute;
+        top: 10px;
+        opacity: 0;
+    }
+    
+    .vento6{
+        display: block;
+        top: 19px;
+        animation: ar5 6s infinite 2s;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .vento7{
+        display: block;
+        top: 27px;
+        animation: ar5 6s infinite 3s;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .vento8{
+        display: block;
+        top: 45px;
+        animation: ar5 6s infinite 4s;
+        position: absolute;
         opacity: 0;
     }
 }

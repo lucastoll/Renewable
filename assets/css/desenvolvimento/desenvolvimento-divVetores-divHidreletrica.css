@@ -8,18 +8,28 @@
     overflow: hidden;
 }
 
-.desenvolvimento__divVetores__divHidreletrica img:nth-child(1){
+.desenvolvimento__divVetores__divHidreletrica__roda__mobile{
     position: absolute;
     left: 16px;
-    top: 16px;
+    top: 17px;
 }
 
-.desenvolvimento__divVetores__divHidreletrica img:nth-child(2){
+.desenvolvimento__divVetores__divHidreletrica__agua__mobile{
     position: absolute;
     bottom: 5px;
     left: -35px;
     animation: aguaCorrente 2s infinite linear;
 }
+
+
+.desenvolvimento__divVetores__divHidreletrica__roda__desktop{
+    display: none;
+}
+
+.desenvolvimento__divVetores__divHidreletrica__agua__desktop{
+    display: none;
+}
+
 
 @keyframes aguaCorrente {
     0%{
@@ -28,4 +38,48 @@
     100%{
         left: -1.85px;
     }
+}
+
+@keyframes aguaCorrente_desktop {
+    0%{
+        left: -55px;
+    }
+    100%{
+        left: -10px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .desenvolvimento__divVetores__divHidreletrica{
+        margin-top: 17px;
+        background-image: url('../../img/desenvolvimento_animacao/hidro_desktop.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        width: 90px;
+        height: 90px;
+        position: relative;
+        overflow: hidden;
+    }
+    .desenvolvimento__divVetores__divHidreletrica__roda__desktop{
+        display: block;
+        position: relative;
+        left: 27px;
+        top: 16px;
+    }
+    
+    .desenvolvimento__divVetores__divHidreletrica__agua__desktop{
+        display: block;
+        position: relative;
+        left: -27px;
+        animation: aguaCorrente_desktop 2s infinite linear;
+    }
+    
+    .desenvolvimento__divVetores__divHidreletrica__roda__mobile{
+        display: none;
+    }
+    
+    .desenvolvimento__divVetores__divHidreletrica__agua__mobile{
+        display: none;
+    }
+    
 }
