@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- INDEX (GERAL) -->
     <link rel="stylesheet" href="assets/css/index/index.css">
     <link rel="stylesheet" href="assets/css/index/section.css">
@@ -10,12 +11,13 @@
     <link rel="stylesheet" href="assets/css/index/section__paragrafo.css">
     <link rel="stylesheet" href="assets/css/index/section__reveal.css">
     <link rel="stylesheet" href="assets/css/index/backbutton.css">
-    <!-- SECTION HOME -->
-    <link rel="stylesheet" href="assets/css/home/home.css">
+    <!-- HOME -->
     <link rel="stylesheet" href="assets/css/home/home-background.css">
-    <link rel="stylesheet" href="assets/css/home/home-titulo.css">
-    <link rel="stylesheet" href="assets/css/home/home-paragrafo.css">
+    <link rel="stylesheet" href="assets/css/home/home-conteudo.css">
     <link rel="stylesheet" href="assets/css/home/home-divlogo.css">
+    <link rel="stylesheet" href="assets/css/home/home-paragrafo.css">
+    <link rel="stylesheet" href="assets/css/home/home-section.css">
+    <link rel="stylesheet" href="assets/css/home/home-titulo.css">
     <link rel="stylesheet" href="assets/css/home/home-arrow.css">
     <!-- SECTION INTRODUÇÃO -->
     <link rel="stylesheet" href="assets/css/introducao/introducao-aquecimento.css">
@@ -41,18 +43,18 @@
 <body>
  <main class="scroll-container" id="main">
     <a href="#1"><img class="backbutton" src="assets/img/backbuttonn.png" data-backbutton></a>
-	<section class="home--wrapper" id="1" data-section-home>
-        <div class="home">
+    <section class="home__section">
+        <div class="home__conteudo">
             <div class="home__divlogo content"> 
                 <img class="home__divlogo__iconloop" src="assets/img/icon_loop.png" data-divlogo-iconloop alt="">
                 <img class="home__divlogo__icon" src="assets/img/icon.png" alt="">
             </div>
             <h1 class="home__titulo content t2">Renewable</h1>
             <p class="home__paragrafo content t3">Aprenda o que são as energias renováveis e como seu uso beneficia nosso planeta de uma maneira simples e interativa.</p>
-            <img id="flecha" class="arrow home__arrow content t4" src="assets/img/arrow.svg" alt="Proxima seção">
         </div>
-        <!-- <div class="wrapper--homebackground" data-wrapper-homebackground></div> -->
-	</section>
+        <div class="home__background content t4" data-wrapper-homebackground></div>
+        <img class="home__arrow--desktop" src="assets/img/arrow.svg">
+    </section>
 
 
 
@@ -66,7 +68,8 @@
         </p>
         <div class="introducao__divVetores content t4">
             <div class="introducao__divVetores__divPetroleo">
-                <img src="assets/img/introducao_animacao/petroleoTopo.png" class="introducao__divVetores__divPetroleo__topo" data-divVetores-divPetroleo-topo alt="">
+                <img src="assets/img/introducao_animacao/petroleoTopo.png" class="introducao__divVetores__divPetroleo__topo petroleoMobile" data-divVetores-divPetroleo-topo alt="">
+                <img src="assets/img/introducao_animacao/petroleoTopo_desktop.png" class="introducao__divVetores__divPetroleo__topo petroleoDesktop" data-divVetores-divPetroleo-topo-desktop alt="">
             </div>
             
             <div class="introducao__divVetores__divCarvao">
@@ -109,22 +112,30 @@
 
         <div class="desenvolvimento__divVetores content t3">
             <div class="desenvolvimento__divVetores__divEolica">
-                <img src="assets/img/desenvolvimento_animacao/hélice.png " alt="" data-desenvolvimento-divVetores-divEolica-helice>
-                <img src="assets/img/desenvolvimento_animacao/vento.png" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento.png" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento.png" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento.png" alt="">
-
+                <img src="assets/img/desenvolvimento_animacao/helice.png" class="desenvolvimento__divVetores__divEolica__helice__mobile" alt="" data-desenvolvimento-divVetores-divEolica-helice>
+                <img src="assets/img/desenvolvimento_animacao/helice_desktop.png" class="desenvolvimento__divVetores__divEolica__helice__desktop" alt="" data-desenvolvimento-divVetores-divEolica-helice-desktop>
+                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento1" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento2" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento3" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento4" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento5" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento6" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento7" alt="">
+                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento8" alt="">
             </div>
 
             <div class="desenvolvimento__divVetores__divHidreletrica"> 
-                <img src="assets/img/desenvolvimento_animacao/roda.png" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica>
-                <img src="assets/img/desenvolvimento_animacao/agua.png" alt="">
+                <img src="assets/img/desenvolvimento_animacao/roda.png" class="desenvolvimento__divVetores__divHidreletrica__roda__mobile" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica>
+                <img src="assets/img/desenvolvimento_animacao/roda_desktop.png" class="desenvolvimento__divVetores__divHidreletrica__roda__desktop" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica-desktop>
+                <img src="assets/img/desenvolvimento_animacao/agua.png" class="desenvolvimento__divVetores__divHidreletrica__agua__mobile" alt="">
+                <img src="assets/img/desenvolvimento_animacao/agua_desktop.png" class="desenvolvimento__divVetores__divHidreletrica__agua__desktop" alt="">
             </div>
 
             <div class="desenvolvimento__divVetores__divSolar">
-                <img src="assets/img/desenvolvimento_animacao/painel.png" alt="">
-                <img src="assets/img/desenvolvimento_animacao/sol.png" alt="">
+                <img src="assets/img/desenvolvimento_animacao/painel.png" class="desenvolvimento__divVetores__divSolar__painel__mobile" alt="">
+                <img src="assets/img/desenvolvimento_animacao/sol.png" class="desenvolvimento__divVetores__divSolar__sol__mobile" alt="">
+                <img src="assets/img/desenvolvimento_animacao/sol_desktop.png" class="desenvolvimento__divVetores__divSolar__sol__desktop" alt="">
+                <img src="assets/img/desenvolvimento_animacao/painel_desktop.png" class="desenvolvimento__divVetores__divSolar__painel__desktop" alt="">
             </div>
         </div>
 

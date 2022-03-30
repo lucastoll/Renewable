@@ -89,3 +89,100 @@
         opacity: 0;
     }
 }
+
+
+@keyframes anima__f1_desktop {
+    0% {
+        left: 20px;
+        top: 10px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 40px;
+        top: -15px;
+        opacity: 0;
+    }
+}
+
+@keyframes anima__f2__desktop {
+    0% {
+        left: 22px;
+        top: 10px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 32px;
+        top: -8px;
+        opacity: 0;
+    }
+}
+
+@keyframes anima__f3__desktop {
+    0% {
+        left: 27px;
+        top: 10px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 32px;
+        top: -8px;
+        opacity: 0;
+    }
+}
+
+@keyframes anima__f4__desktop {
+    0% {
+        left: 29px;
+        top: 10px;
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        left: 32px;
+        top: -8px;
+        opacity: 0;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .introducao__divVetores__divUsina__fumaca{
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        opacity: 0;
+    }    
+    
+    .introducao__divVetores__divUsina__fumaca.fumaca1{
+        animation: anima__f1_desktop 4s infinite;
+    }
+    
+    .introducao__divVetores__divUsina__fumaca.fumaca2{
+        animation: anima__f2__desktop 4s infinite;
+        animation-delay: 0.5s;
+    }
+    
+    .introducao__divVetores__divUsina__fumaca.fumaca3{
+        animation: anima__f3__desktop 4s infinite;
+        animation-delay: 1.5s;
+    }
+    
+    .introducao__divVetores__divUsina__fumaca.fumaca4{
+        left: 4px;
+        animation: anima__f4__desktop 4s infinite;
+        animation-delay: 2s;
+    }
+}

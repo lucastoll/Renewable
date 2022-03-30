@@ -19,7 +19,8 @@
 
 @media screen and (min-width: 1024px) {
     .section__paragrafo{
-        max-width: 1200px;
+        max-width: 800px;
         font-size: 22px;
+        margin-top: 50px;
     }
 }

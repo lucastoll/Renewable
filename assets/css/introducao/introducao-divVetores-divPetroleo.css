@@ -8,3 +8,12 @@
     overflow: hidden;
 }
 
+@media screen and (min-width: 1024px) {
+    .introducao__divVetores__divPetroleo{
+        width: 90px;
+        height: 90px;
+        background-size: 100% 100%;
+        background-image: url('../../img/introducao_animacao/petroleo_desktop.png');
+    }
+}
+

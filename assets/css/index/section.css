@@ -1,4 +1,4 @@
-section {
+.introducao, .desenvolvimento {
 	scroll-snap-align: start;
     align-items: center;
     display: flex;
@@ -9,7 +9,7 @@ section {
 }
 
 .section__titulo{
-    font-size: 30px;
+    font-size: 48px;
     margin: 10px;
     text-align: center;
 }
@@ -18,8 +18,9 @@ section {
     margin-bottom: 250px;
 }
 
+
 @media screen and (min-width: 1023px) {
     .section__titulo{
-        font-size: 64px;
+        font-size: 46px;
     }
 }

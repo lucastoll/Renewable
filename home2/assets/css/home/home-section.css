@@ -1,0 +1,21 @@
+.home__section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1024px){
+    .home__section{
+        justify-content: space-between;
+        margin: 0px 0px 90px 90px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .home__section{
+        justify-content:center;
+        margin: 0px 0px 0px 90px;
+    }
+}

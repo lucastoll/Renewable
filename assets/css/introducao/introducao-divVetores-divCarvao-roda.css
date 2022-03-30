@@ -6,10 +6,17 @@
 
 .introducao__divVetores__divCarvao__roda.roda1{
     bottom: 5px;
-    left: 26px;
+    left: 24px;
 }
 
 .introducao__divVetores__divCarvao__roda.roda2{
     bottom: 5px;
     right: 26px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .introducao__divVetores__divCarvao__roda{
+        width: 18px;
+    }
 }

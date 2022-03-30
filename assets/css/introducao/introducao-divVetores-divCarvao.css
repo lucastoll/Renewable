@@ -27,3 +27,12 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
+
+  @media screen and (min-width: 1024px) {
+    .introducao__divVetores__divCarvao{
+      background-image: url('../../img/introducao_animacao/carvao_sem_roda_desktop.png');
+      width: 90px;
+      height: 90px;
+      background-size: 100% 100%;
+    }    
+  }

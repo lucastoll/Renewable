@@ -1,33 +1,23 @@
-.home__arrow{
-    position: block;
-    align-self: center;
-    width: 39px;
-    height: 23px;
-
-   /*  animation: arrow_animation_mobile 1s alternate infinite; */
+.home__arrow--desktop{
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    animation: anima__arrow__desktop 1s alternate infinite;
 }
 
-/* @keyframes arrow_animation_mobile {
-    from{
-        bottom: 150px;
-    }
-    to{
-        bottom: 90px;
-    }
-}
-
-@keyframes arrow_animation_desktop {
-    from{
+@keyframes anima__arrow__desktop {
+    0%{
         bottom: 100px;
     }
-    to{
-        bottom: 40px;
+    100%{
+        bottom: 50px;
     }
 }
+
 
 @media screen and (min-width: 1024px) {
-    .home__arrow{
-        bottom: 100px;
-        animation: arrow_animation_desktop 1s alternate infinite;
+    .home__arrow--desktop{
+        left: calc(50% - 60px)
     }
-} */
+}
+

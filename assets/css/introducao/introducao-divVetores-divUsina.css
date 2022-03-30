@@ -7,3 +7,13 @@
     position: relative;
     margin-right: 5px;
 }
+
+
+@media screen and (min-width: 1024px) {
+    .introducao__divVetores__divUsina{
+        background-image: url('../../img/introducao_animacao/usina_desktop.png');
+        width: 90px;
+        height: 90px;
+        background-size: 100% 100%;
+    }
+}
