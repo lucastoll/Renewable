@@ -19,3 +19,9 @@
     height: 140px;
     background: var(--vermelhonegativo);
 }
+
+@media screen and (max-width: 1023px) {
+    .energia__desktopWrapper__VanDes__divisor{
+        display: none;
+    }
+}

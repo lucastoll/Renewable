@@ -1,3 +1,10 @@
 .energia__desktopWrapper__VanDes__vantagens__titulo{
     text-align: center;
 }
+
+@media screen and (max-width: 1023px) {
+    .energia__desktopWrapper__VanDes__vantagens__titulo{
+        font-size: 20px;
+        color: var(--verdepositivo);
+    }
+}

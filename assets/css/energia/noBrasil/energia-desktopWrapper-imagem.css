@@ -5,6 +5,20 @@
     margin: 0;
 }
 
+.carrousel-mobile{
+    width: 100vw;
+}
+
+@media screen and (max-width: 1023px) {
+    .energia__desktopWrapper__noBrasil__imagem{
+        height: 250px;
+    }
+
+    .carrousel-desktop{
+        display: none;
+    }
+}
+
 .owl-dot.active span{
     background-color: #535353 !important;
 } 
@@ -16,4 +30,10 @@
 .owl-prev span{
     height: 10px;
     width: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrousel-mobile{
+        display: none;
+    }
 }

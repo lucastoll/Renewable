@@ -1,3 +1,11 @@
 .energia__desktopWrapper__VanDes__desvantagens__titulo{
     text-align: center;
 }
+
+@media screen and (max-width: 1023px) {
+    .energia__desktopWrapper__VanDes__desvantagens__titulo{
+        font-size: 20px;
+        color: var(--vermelhonegativo);
+        margin-top: 30px;
+    }
+}

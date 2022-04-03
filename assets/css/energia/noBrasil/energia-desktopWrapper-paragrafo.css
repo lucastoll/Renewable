@@ -4,6 +4,12 @@
     width: auto;
 }
 
+@media screen and (max-width: 1023px) {
+    .energia__desktopWrapper__noBrasil__paragrafo{
+        font-size: 18px;
+    }
+}
+
 a:visited {
 color: green;
 }

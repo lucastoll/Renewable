@@ -3,8 +3,16 @@
     max-width: auto;
 }
 
+@media screen and (max-width: 340px) {
+    .energia__desktopWrapper__informacoes{
+        max-width: 250px;
+    }
+}
+
+
 @media screen and (max-width: 1023px) {
     .energia__desktopWrapper__informacoes{
         width: 100%;
     }
 }
+
