@@ -2,4 +2,6 @@
     padding: 70px;
     position: relative;
     font-size: 18px;
+    height: auto;
+    padding-bottom: 300px;
 }

@@ -1,0 +1,8 @@
+.energia__desktopWrapper__uso__porcentagem{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    width: 100%;
+    justify-content: space-between;
+}

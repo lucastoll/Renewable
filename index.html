@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- INDEX (GERAL) -->
+    <link rel="stylesheet" href="assets/css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/index/index.css">
     <link rel="stylesheet" href="assets/css/index/section.css">
     <link rel="stylesheet" href="assets/css/index/section__arrow.css">
@@ -42,7 +44,7 @@
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-informacoes.css">
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper.css">
     <link rel="stylesheet" href="assets/css/energia/energia.css">
-
+    <!-- SECTIONS ENERGIA VANTAGENSE E DESVANTAGENS -->
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-VanDes-case.css">
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-VanDes-desvantagens-titulo.css">
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-VanDes-desvantagens.css">
@@ -50,6 +52,20 @@
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-VanDes-vantagens.css">
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-VanDes.css">
     <link rel="stylesheet" href="assets/css/energia/energia-desktopWrapper-VanDes-divisor.css">
+    <!-- SECTION ENERGIA / USO -->
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso-paragrafo.css">
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso-porcentagem-divisor.css">
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso-porcentagem-mundial.css">
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso-porcentagem-nacional.css">
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso-porcentagem.css">
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso-titulo.css">
+    <link rel="stylesheet" href="assets/css/energia/uso/energia-desktopWrapper-uso.css">
+    <!-- SECTION ENERGIA / NO BRASIL -->
+    <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-noBrasil.css">
+    <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-paragrafo.css">
+    <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-titulo.css">
+    <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-imagem.css">
+
     
     <title>Renewable</title>
     <link rel="icon" href="assets/img/icon.png">
@@ -172,7 +188,7 @@
         <div class="section__preenchimento"></div>
     </section>
 
-    <section class="energia energia--eolica" style="height: 100vw;">
+    <section class="energia energia--eolica">
         <h1 class="section__titulo">Energia Eólica</h1>
         <div class="energia__desktopWrapper">
             <div class="energia__desktopWrapper__informacoes">
@@ -210,31 +226,69 @@
                         </div>
                         <div class="energia__desktopWrapper__VanDes__case">
                             <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O vento é muito irregular, então a geração de energia é pode ser imprevisível.</p>
+                            <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
                         </div>
                     </div>
         
                 </div>
+
+                <div class="energia__desktopWrapper__uso">
+                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                    <div class="energia__desktopWrapper__uso__porcentagem">
+                        <div class="energia__desktopWrapper__uso__porcentagem__mundial">2.5% 
+                            <div></div>
+                            <p>Na geração de energia mundial.</p>
+                        </div>
+                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                        <div class="energia__desktopWrapper__uso__porcentagem__nacional">8.8% 
+                            <div></div>
+                            <p>Na geração de energia nacional.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             
             <div class="energia__desktopWrapper__ilustracao">
-                <img src="assets/img/energias/eolica.png">
+                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/eolica.png">
+                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
             </div>
         </div>
 
+        <div class="energia__desktopWrapper__noBrasil">
+            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+            <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
+            </p>
+            <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
+            </p>
 
+            <div class="owl-carousel owl-theme">
+                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
+                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
+                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
+            </div>
+        </div>
         
+        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
     </section>
 </main>
 
-
+<div id="fim"></div>
 
 </body>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="assets/js/home-background.js"></script>
 <script src="assets/js/anima-logo.js"></script> 
 <script src="assets/js/anima-scroll.js" type="module"></script>
 <script src="assets/js/introducao.js"></script>
 <script src="assets/js/desenvolvimento.js"></script>
+<script src="assets/js/owlcarousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </html>
+

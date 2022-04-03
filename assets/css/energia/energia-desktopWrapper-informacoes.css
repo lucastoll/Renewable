@@ -2,3 +2,9 @@
     width: 50%;
     max-width: auto;
 }
+
+@media screen and (max-width: 1023px) {
+    .energia__desktopWrapper__informacoes{
+        width: 100%;
+    }
+}

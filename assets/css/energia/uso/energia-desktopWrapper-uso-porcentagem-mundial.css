@@ -1,0 +1,17 @@
+.energia__desktopWrapper__uso__porcentagem__mundial{
+    width: 100%;
+}
+
+.energia__desktopWrapper__uso__porcentagem__mundial div{
+    height: 3px;
+    width: 100%;
+    background: #626161;
+    opacity: 0.40;
+}
+
+.energia__desktopWrapper__uso__porcentagem__mundial p{
+    font-size: 14px;
+    margin-left: 3px;
+    color: #626161;
+    text-align: left;
+}
