@@ -1,0 +1,21 @@
+.energia__desktopWrapper__VanDes__divisor{
+    width: 80px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.energia__desktopWrapper__VanDes__divisor div:nth-child(1){
+    width: 4px;
+    height: 140px;
+    background: var(--verdepositivo);
+}
+
+.energia__desktopWrapper__VanDes__divisor div:nth-child(2){
+    width: 4px;
+    height: 140px;
+    background: var(--vermelhonegativo);
+}

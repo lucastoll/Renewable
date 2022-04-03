@@ -1,15 +1,15 @@
-.introducao, .desenvolvimento {
+.introducao, .desenvolvimento, .energia {
 	scroll-snap-align: start;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin-top: 400px;
     scroll-snap-stop: always;
-    text-align: left;
+    text-align: justify;
 }
 
 .section__titulo{
-    font-size: 48px;
+    font-size: 24px;
     margin: 10px;
     text-align: center;
 }

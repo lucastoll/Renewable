@@ -73,7 +73,7 @@
 }
 
 .vento4{
-    top: 20px;
+    top: 30px;
     right: -5px;
     animation: ar4 6s infinite 4s;
     opacity: 0;
@@ -87,6 +87,7 @@
     }
     100%{
         right: 60px;
+        opacity: 0;
     }
 }
 
@@ -156,18 +157,18 @@
         opacity: 1;
     }
     100%{
-        right: 60px;
+        right: 90px;
         opacity: 0;
     }
 }
 
 @keyframes ar7 {
     0%{
-        right: -35px;
+        right: -20px;
         opacity: 1;
     }
     100%{
-        right: 60px;
+        right: 70px;
         opacity: 0;
     }
 }
@@ -194,7 +195,7 @@
 
     .vento5{
         display: block;
-        animation: ar4 6s infinite 1s;
+        animation: ar5 6s infinite 1s;
         position: absolute;
         top: 10px;
         opacity: 0;
@@ -203,7 +204,7 @@
     .vento6{
         display: block;
         top: 19px;
-        animation: ar5 6s infinite 2s;
+        animation: ar6 6s infinite 2s;
         position: absolute;
         opacity: 0;
     }
@@ -211,15 +212,15 @@
     .vento7{
         display: block;
         top: 27px;
-        animation: ar5 6s infinite 3s;
+        animation: ar7 6s infinite 3s;
         position: absolute;
         opacity: 0;
     }
 
     .vento8{
         display: block;
-        top: 45px;
-        animation: ar5 6s infinite 4s;
+        top: 50px;
+        animation: ar7 6s infinite 4s;
         position: absolute;
         opacity: 0;
     }

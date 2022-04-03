@@ -1,0 +1,5 @@
+.energia__desktopWrapper{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}

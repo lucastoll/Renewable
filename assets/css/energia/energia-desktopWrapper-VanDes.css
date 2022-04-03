@@ -1,0 +1,8 @@
+.energia__desktopWrapper__VanDes{
+    display: flex;
+    align-self: center;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    align-items: flex-start;
+}

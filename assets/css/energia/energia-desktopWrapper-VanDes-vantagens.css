@@ -1,0 +1,6 @@
+.energia__desktopWrapper__VanDes__vantagens{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
