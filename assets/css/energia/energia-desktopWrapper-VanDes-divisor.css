@@ -9,15 +9,15 @@
 }
 
 .energia__desktopWrapper__VanDes__divisor div:nth-child(1){
-    width: 4px;
+    width: 1.84px;
     height: 140px;
-    background: var(--verdepositivo);
+    background: #626161;
 }
 
 .energia__desktopWrapper__VanDes__divisor div:nth-child(2){
-    width: 4px;
+    width: 1.84px;
     height: 140px;
-    background: var(--vermelhonegativo);
+    background: #626161;
 }
 
 @media screen and (max-width: 1023px) {

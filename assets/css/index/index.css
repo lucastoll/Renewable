@@ -43,3 +43,7 @@ body {
 .spanAzul{
     color: var(--azulfuturo);
 }
+
+.spanOceano{
+    color: #31439B;
+}
