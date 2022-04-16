@@ -1,6 +1,9 @@
 .energia__desktopWrapper__informacoes{
     width: 50%;
     max-width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 @media screen and (max-width: 340px) {

@@ -1,0 +1,5 @@
+.energia__desktopWrapper__uso{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

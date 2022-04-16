@@ -3,11 +3,4 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 300px;
-}
-
-@media screen and (max-width: 1023px) {
-    .energia__desktopWrapper__VanDes__vantagens{
-        height: 200px;
-    }
 }

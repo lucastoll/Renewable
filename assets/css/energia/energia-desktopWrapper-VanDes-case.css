@@ -1,8 +1,10 @@
 .energia__desktopWrapper__VanDes__case{
-    height: 50px;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .energia__desktopWrapper__VanDes__case img{
@@ -18,7 +20,5 @@
 @media screen and (min-width: 1100px) {
     .energia__desktopWrapper__VanDes__case{
         height: 55px;
-        text-align: left;
-        font-size: 18px;
     }
 }
