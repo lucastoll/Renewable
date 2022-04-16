@@ -25,7 +25,6 @@
 
 @media screen and (max-height: 650px) {
     .home__section{
-        overflow: auto;
-        height: 300vh;
+        height: 150vh;
     }    
 }

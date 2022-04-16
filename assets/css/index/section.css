@@ -1,4 +1,4 @@
-.introducao, .desenvolvimento, .energia {
+.introducao, .desenvolvimento, .energia, .projetos {
 	scroll-snap-align: start;
     align-items: center;
     display: flex;
