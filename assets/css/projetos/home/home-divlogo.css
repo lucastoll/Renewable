@@ -1,0 +1,12 @@
+
+.home__divlogo__icon{
+    height: 200px;
+    align-self: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .home__divlogo__icon{
+        align-self: flex-start;
+    }
+}

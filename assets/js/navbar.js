@@ -1,10 +1,10 @@
 // search-box open close js code
-var navbar = document.querySelector(".navbar");
+let navbar = document.querySelector(".navbar");
 
 // sidebar open close js code
-var navLinks = document.querySelector(".nav-links");
-var menuOpenBtn = document.querySelector(".navbar .bx-menu");
-var menuCloseBtn = document.querySelector(".nav-links .bx-x");
+let navLinks = document.querySelector(".nav-links");
+let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+let menuCloseBtn = document.querySelector(".nav-links .bx-x");
 menuOpenBtn.onclick = function () {
   navLinks.style.left = "0";
 };
@@ -13,7 +13,11 @@ menuCloseBtn.onclick = function () {
 };
 
 // sidebar submenu open close js code
-var htmlcssArrow = document.querySelector(".htmlcss-arrow");
-htmlcssArrow.onclick = function () {
+
+let li = document.querySelector(".liClick");
+let ul = document.querySelector(".htmlCss-sub-menu");
+
+li.onclick = function () {
   navLinks.classList.toggle("show1");
-};
+  ul.style.animation = "altura 10s ease-in;" /* Fodase */
+}

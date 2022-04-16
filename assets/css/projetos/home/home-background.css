@@ -1,0 +1,35 @@
+.home__background{
+    display: none;
+    width: 600px;
+    height: 600px;
+    z-index: -1;
+    align-self: flex-start;
+    margin-top: 150px;
+}
+
+.home__background__imagem{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    .home__background{
+        display: flex;
+    }
+}
+
+/* @media screen and (min-width: 1224px){
+    .home__background{
+        width: 800px;
+        height: 800px;
+    }
+} */
+/* 
+@media screen and (min-width: 1324px){
+    .home__background{
+        width: 900px;
+        height: 900px;
+    }
+}
+
+ */

@@ -16,3 +16,10 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .energia__desktopWrapper__VanDes--geotermica{
+        height: 300px;
+    }
+}
+
+
