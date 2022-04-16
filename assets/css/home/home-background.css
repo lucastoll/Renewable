@@ -3,8 +3,7 @@
     width: 600px;
     height: 600px;
     z-index: -1;
-    position: relative;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .home__background__imagem{
@@ -23,15 +22,16 @@
     .home__background{
         width: 700px;
         height: 700px;
+        margin-top: 60px;
     }
 }
 
-@media screen and (min-width: 1224px){
+/* @media screen and (min-width: 1224px){
     .home__background{
         width: 800px;
         height: 800px;
     }
-}
+} */
 /* 
 @media screen and (min-width: 1324px){
     .home__background{

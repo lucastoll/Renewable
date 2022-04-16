@@ -7,6 +7,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    position: relative;
 }
 
 @media screen and (min-width: 1024px) {
@@ -24,6 +25,7 @@
 .home__paragrafo{
     font-size: 27px;
     max-width: 540px;
+    
 }   
 }
 
