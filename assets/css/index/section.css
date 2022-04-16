@@ -6,6 +6,7 @@
     margin-top: 400px;
     scroll-snap-stop: always;
     text-align: justify;
+    padding-top: 100px !important;
 }
 
 .section__titulo{

@@ -4,6 +4,7 @@
     height: 600px;
     z-index: -1;
     position: relative;
+    align-self: center;
 }
 
 .home__background__imagem{
@@ -31,7 +32,7 @@
         height: 800px;
     }
 }
-
+/* 
 @media screen and (min-width: 1324px){
     .home__background{
         width: 900px;
@@ -39,16 +40,4 @@
     }
 }
 
-@media screen and (min-width: 1424px){
-    .home__background{
-        width: 1100px;
-        height: 1000px;
-    }
-
-    .home__background__imagem{
-        position: absolute;
-        top: -110px;
-        left: 50px;
-    }
-}
-
+ */

@@ -15,18 +15,10 @@
     margin: 0px;
 }
 
-@media screen and (min-width: 1024px) {
-    .energia__desktopWrapper__VanDes__case{
-        height: 55px;
-        text-align: left;
-        font-size: 14px;
-    }
-}
-
 @media screen and (min-width: 1100px) {
     .energia__desktopWrapper__VanDes__case{
         height: 55px;
         text-align: left;
-        font-size: 16px;
+        font-size: 18px;
     }
 }

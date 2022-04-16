@@ -7,6 +7,7 @@
     width: 102vw;
     overflow: hidden;
     z-index: 1;
+    margin-top: 100px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -16,12 +17,11 @@
     }
 }
 
-@media screen and (min-width: 1424px) {
+/* @media screen and (min-width: 1424px) {
     .home__conteudo{
         margin-top: 100px;
-        justify-content: flex-start;
     }
 }
-
+ */
 
 

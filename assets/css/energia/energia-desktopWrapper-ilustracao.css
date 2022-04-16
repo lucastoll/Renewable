@@ -1,7 +1,7 @@
 .energia__desktopWrapper__ilustracao{
     width: 50%;
     position: relative;
-    animation: ilha 60s infinite alternate;
+    animation: ilha 40s infinite alternate;
 }
 
 @media screen and (max-width: 1023px) {

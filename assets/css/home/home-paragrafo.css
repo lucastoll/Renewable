@@ -12,7 +12,7 @@
 @media screen and (min-width: 1024px) {
     .home__paragrafo{
         align-self: flex-start;
-        font-size: 24px;
+        font-size: 20px;
         padding: 0px;
         text-align: left;
         max-width: 380px;
@@ -28,10 +28,10 @@
 }
 
 
-@media screen and (min-width: 1700px) {
+/* @media screen and (min-width: 1700px) {
 .home__paragrafo{
     font-size: 32px;
     max-width: 500px;
     margin-top: 20px;
 }   
-}
+} */

@@ -20,7 +20,7 @@
 @media screen and (min-width: 1024px) {
     .section__paragrafo{
         max-width: 800px;
-        font-size: 22px;
+        font-size: 18px;
         margin-top: 50px;
     }
 }

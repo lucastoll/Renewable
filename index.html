@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <!-- INDEX (GERAL) -->
     <link rel="stylesheet" href="assets/css/owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owlcarousel/owl.theme.default.min.css">
@@ -12,7 +14,6 @@
     <link rel="stylesheet" href="assets/css/index/section__arrow.css">
     <link rel="stylesheet" href="assets/css/index/section__paragrafo.css">
     <link rel="stylesheet" href="assets/css/index/section__reveal.css">
-    <link rel="stylesheet" href="assets/css/index/backbutton.css">
     <!-- HOME -->
     <link rel="stylesheet" href="assets/css/home/home-background.css">
     <link rel="stylesheet" href="assets/css/home/home-conteudo.css">
@@ -65,723 +66,755 @@
     <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-paragrafo.css">
     <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-titulo.css">
     <link rel="stylesheet" href="assets/css/energia/noBrasil/energia-desktopWrapper-imagem.css">
+    <link rel="stylesheet" href="assets/css/navbar/navbar.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>Renewable</title>
     <link rel="icon" href="assets/img/icon.png">
 </head>
 <body>
- <main class="scroll-container" id="main">
-    <a href="#1"><img class="backbutton" src="assets/img/backbuttonn.png" data-backbutton></a>
-    <section class="home__section">
-        <div class="home__conteudo">
-            <div class="home__divlogo content"> 
-                <img class="home__divlogo__iconloop" src="assets/img/icon_loop.png" data-divlogo-iconloop alt="">
-                <img class="home__divlogo__icon" src="assets/img/icon.png" alt="">
-            </div>
-            <h1 class="home__titulo content t2">Renewable</h1>
-            <p class="home__paragrafo content t3">Aprenda o que são as energias renováveis e como seu uso beneficia nosso planeta de uma maneira simples e interativa.</p>
+    <nav>
+    <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#home">Renewable</a></div>
+        <div class="nav-links">
+        <div class="sidebar-logo">
+            <span class="logo-name">Renewable</span>
+            <i class='bx bx-x'></i>
         </div>
-        <div class="home__background content t4" data-wrapper-homebackground></div>
-        <img class="home__arrow--desktop content t6" src="assets/img/arrow.svg">
-    </section>
-
-    <section class="introducao" data-section-introducao>
-        <h1 class="section__titulo content">Energias não renováveis</h1>
-        <p class="section__paragrafo content t2">
-            Para entendermos melhor o conceito de <strong><span class="spanVerde">energias renováveis</span></strong>, primeiro temos que saber o que são as energias <strong><span class="spanVermelho">não renováveis</span></strong> e como elas afetam <strong>negativamente</strong> nosso planeta, basicamente, esse tipo de energia funciona através da base de utilizar <strong>recursos finitos</strong> da natureza como fonte de energia, isso significa que para essas energias funcionarem elas retiram matéria prima do planeta que não vai reposta pela natureza, causando efeitos prejudiciais ao meio ambiente gradualmente. 
-        </p>
-        <p class="section__paragrafo content t3">
-            As principais fontes de energia desse tipo são os combustíveis fosseis, sendo que os mais utilizados são o <strong>petróleo</strong>, o <strong>carvão mineral</strong> e o <strong>gás natural</strong>, sua extração é nociva a natureza, já que sua queima libera alta quantidade de <span class="spanRoxo">gases poluentes</span> que produzem o famoso efeito estufa.
-        </p>
-        <div class="introducao__divVetores content t4">
-            <div class="introducao__divVetores__divPetroleo">
-                <img src="assets/img/introducao_animacao/petroleoTopo.png" class="introducao__divVetores__divPetroleo__topo petroleoMobile" data-divVetores-divPetroleo-topo alt="">
-                <img src="assets/img/introducao_animacao/petroleoTopo_desktop.png" class="introducao__divVetores__divPetroleo__topo petroleoDesktop" data-divVetores-divPetroleo-topo-desktop alt="">
-            </div>
-            
-            <div class="introducao__divVetores__divCarvao">
-                <img class="introducao__divVetores__divCarvao__roda roda1" src="assets/img/introducao_animacao/roda.png" alt="">
-                <img class="introducao__divVetores__divCarvao__roda roda2" src="assets/img/introducao_animacao/roda.png" alt="">
-            </div>
-
-            <div class="introducao__divVetores__divUsina">
-                <img class="introducao__divVetores__divUsina__fumaca fumaca1" src="assets/img/introducao_animacao/fumaça.png" alt="">
-                <img class="introducao__divVetores__divUsina__fumaca fumaca2" src="assets/img/introducao_animacao/fumaça.png" alt="">
-                <img class="introducao__divVetores__divUsina__fumaca fumaca3" src="assets/img/introducao_animacao/fumaça.png" alt="">
-                <img class="introducao__divVetores__divUsina__fumaca fumaca4" src="assets/img/introducao_animacao/fumaça.png" alt="">
-            </div>
-        </div>
-        <img class="introducao__bracket content t5" src="assets/img/bracket.png" alt="">
-        
-        <div class="introducao__aquecimento content t6">
-            <div class="introducao__aquecimento--animacao">
-            </div>
+        <ul class="links">
+            <li><a href="#introducao">INTRODUÇÃO</a></li>
+            <li>
+                <a href="#">ENERGIAS</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i> <!-- @ -->
+                <ul class="htmlCss-sub-menu sub-menu">
+                    <li><a href="#hidrica">ENERGIA HÍDRICA</a></li>
+                    <li><a href="#eolica">ENERGIA EÓLICA</a></li>
+                    <li><a href="#solar">ENERGIA SOLAR</a></li>
+                    <li><a href="#biomassa">ENERGIA DA BIOMASSA</a></li>
+                    <li><a href="#geotermica">ENERGIA GEOTÉRMICA</a></li>
+                    <li><a href="#maremotriz">ENERGIA MAREMOTRIZ</a></li>
+                </ul>
+            </li>
+            <li>
+            <a href="#">QUESTIONÁRIO</a>
+            <li><a href="#">PROJETOS</a></li>
+        </ul>
         </div>
 
-        <p class="section__paragrafo content t7">
-            Com isso foi comprovado que as <strong>fontes de <span class="spanVermelho">energia não renováveis</span> tem grande culpa nas recentes mudanças climáticas</strong> que o planeta enfrenta, por isso, é notório que <strong>as <span class="spanVerde">energias renováveis</span> estão ganhando cada vez mais destaque nos últimos anos</strong>, e sua procura subiu muito, mas afinal, como funcionam as energias renováveis?.
-        </p>
+    </div>
+    </nav>
+    <script src="/assets/js/navbar.js"></script>
 
-        <img id="flecha" class="arrow section__arrow content t8" src="assets/img/arrow.svg" alt="Proxima seção"> 
-        
-        <div class="section__preenchimento"></div>
-     </section>
-
-    <section class="desenvolvimento">
-        <h1 class="section__titulo">Energias renováveis</h1>
-        <p class="section__paragrafo content t1">
-            As energias <strong><span>renováveis</span></strong> funcionam utilizando como fonte recursos que são encontrados em <strong><span class="spanVerde">grande quantidade no meio-ambiente</span></strong>, sendo considerados recursos <strong>inesgotáveis</strong>, além disso essas energias são consideradas <strong><span class="spanVerde">limpas</span></strong> pois é evidente que seu uso gera uma quantidade muito pequena de <span class="spanRoxo">resíduos e gases poluentes</span> se comparadas as energias não renováveis. 
-        </p>
-
-        <p class="section__paragrafo content t2">
-            Os exemplos mais simples de fontes renováveis são o vento, a água e o sol:
-        </p>
-
-        <div class="desenvolvimento__divVetores content t3">
-            <div class="desenvolvimento__divVetores__divEolica">
-                <img src="assets/img/desenvolvimento_animacao/helice.png" class="desenvolvimento__divVetores__divEolica__helice__mobile" alt="" data-desenvolvimento-divVetores-divEolica-helice>
-                <img src="assets/img/desenvolvimento_animacao/helice_desktop.png" class="desenvolvimento__divVetores__divEolica__helice__desktop" alt="" data-desenvolvimento-divVetores-divEolica-helice-desktop>
-                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento1" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento2" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento3" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento4" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento5" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento6" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento7" alt="">
-                <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento8" alt="">
+    <main class="scroll-container" id="main">
+        <section class="home__section" id="home">
+            <div class="home__conteudo">
+                <div class="home__divlogo content"> 
+                    <img class="home__divlogo__iconloop" src="assets/img/icon_loop.png" data-divlogo-iconloop alt="">
+                    <img class="home__divlogo__icon" src="assets/img/icon.png" alt="">
+                </div>
+                <h1 class="home__titulo content t2">Renewable</h1>
+                <p class="home__paragrafo content t3">Aprenda o que são as energias renováveis e como seu uso beneficia nosso planeta de uma maneira simples e interativa.</p>
             </div>
+            <div class="home__background content t4" data-wrapper-homebackground></div>
+            <img class="home__arrow--desktop content t6" src="assets/img/arrow.svg">
+        </section>
 
-            <div class="desenvolvimento__divVetores__divHidreletrica"> 
-                <img src="assets/img/desenvolvimento_animacao/roda.png" class="desenvolvimento__divVetores__divHidreletrica__roda__mobile" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica>
-                <img src="assets/img/desenvolvimento_animacao/roda_desktop.png" class="desenvolvimento__divVetores__divHidreletrica__roda__desktop" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica-desktop>
-                <img src="assets/img/desenvolvimento_animacao/agua.png" class="desenvolvimento__divVetores__divHidreletrica__agua__mobile" alt="">
-                <img src="assets/img/desenvolvimento_animacao/agua_desktop.png" class="desenvolvimento__divVetores__divHidreletrica__agua__desktop" alt="">
-            </div>
-
-            <div class="desenvolvimento__divVetores__divSolar">
-                <img src="assets/img/desenvolvimento_animacao/painel.png" class="desenvolvimento__divVetores__divSolar__painel__mobile" alt="">
-                <img src="assets/img/desenvolvimento_animacao/sol.png" class="desenvolvimento__divVetores__divSolar__sol__mobile" alt="">
-                <img src="assets/img/desenvolvimento_animacao/sol_desktop.png" class="desenvolvimento__divVetores__divSolar__sol__desktop" alt="">
-                <img src="assets/img/desenvolvimento_animacao/painel_desktop.png" class="desenvolvimento__divVetores__divSolar__painel__desktop" alt="">
-            </div>
-        </div>
-
-        <p class="section__paragrafo content t4">
-            Apesar das energias <strong><span class="spanVerde">renováveis</span></strong> causarem menos impactos ambientais, elas ainda não são muito utilizadas devido ao investimento necessário para sua instalação, por isso, em geral a energia elétrica que a nossa sociedade produz ainda tem base nas energias convencionais e não renováveis. 
-        </p>
-
-        <p class="section__paragrafo content t5">
-            Entretanto, a projeção de mercado indica que esse cenário está mudando e <strong>com o tempo as fontes renováveis vão se tornar mais baratas que as fósseis</strong>, sendo mais <strong>rentáveis</strong> e tendo a capacidade de atender às necessidades globais de energia com um <strong><span class="spanVerde">baixo impacto ambiental.</span></strong>
-        </p>
-
-        <p class="section__paragrafo content t6">
-            Com isso, conclui-se que as <strong>energias renováveis</strong> são as <strong><span class="spanAzul">energias do futuro</span></strong>, e é necessário entender como cada uma delas funciona para compreender inteiramente as energias que vão reger o <strong><span class="spanAzul">futuro</span></strong> da nossa sociedade, 
-        </p>
-
-        <p class="section__paragrafo content t7">
-            Existem <strong>seis</strong> principais tipos de fontes <strong><span class="spanVerde">renováveis</span></strong>, sendo elas a solar, a hídrica, a eólica, a biomassa, a geotérmica e a maremotriz, e você vai encontrar uma explicação sobre cada uma delas abaixo:
-        </p>
-
-        <img id="flecha" class="arrow section__arrow content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-        
-        <div class="section__preenchimento"></div>
-    </section>
-
-    <section class="energia energia--hidrica">
-        <h1 class="section__titulo">Energia Hídrica</h1>
-        <div class="energia__desktopWrapper">
-            <div class="energia__desktopWrapper__informacoes">
-                <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
-                <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
-                <div class="energia__desktopWrapper__VanDes">
-
-                    <div class="energia__desktopWrapper__VanDes__vantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>É inesgotável.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não gera resíduos nem gases poluentes.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
-                        </div>
-                    </div>
-        
-                    <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
-        
-                    <div class="energia__desktopWrapper__VanDes__desvantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Custo de instalação alto.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Risco às aves locais.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
-                        </div>
-                    </div>
-        
+        <section class="introducao" data-section-introducao id="introducao">
+            <h1 class="section__titulo content">Energias não renováveis</h1>
+            <p class="section__paragrafo content t2">
+                Para entendermos melhor o conceito de <strong><span class="spanVerde">energias renováveis</span></strong>, primeiro temos que saber o que são as energias <strong><span class="spanVermelho">não renováveis</span></strong> e como elas afetam <strong>negativamente</strong> nosso planeta, basicamente, esse tipo de energia funciona através da base de utilizar <strong>recursos finitos</strong> da natureza como fonte de energia, isso significa que para essas energias funcionarem elas retiram matéria prima do planeta que não vai reposta pela natureza, causando efeitos prejudiciais ao meio ambiente gradualmente. 
+            </p>
+            <p class="section__paragrafo content t3">
+                As principais fontes de energia desse tipo são os combustíveis fosseis, sendo que os mais utilizados são o <strong>petróleo</strong>, o <strong>carvão mineral</strong> e o <strong>gás natural</strong>, sua extração é nociva a natureza, já que sua queima libera alta quantidade de <span class="spanRoxo">gases poluentes</span> que produzem o famoso efeito estufa.
+            </p>
+            <div class="introducao__divVetores content t4">
+                <div class="introducao__divVetores__divPetroleo">
+                    <img src="assets/img/introducao_animacao/petroleoTopo.png" class="introducao__divVetores__divPetroleo__topo petroleoMobile" data-divVetores-divPetroleo-topo alt="">
+                    <img src="assets/img/introducao_animacao/petroleoTopo_desktop.png" class="introducao__divVetores__divPetroleo__topo petroleoDesktop" data-divVetores-divPetroleo-topo-desktop alt="">
+                </div>
+                
+                <div class="introducao__divVetores__divCarvao">
+                    <img class="introducao__divVetores__divCarvao__roda roda1" src="assets/img/introducao_animacao/roda.png" alt="">
+                    <img class="introducao__divVetores__divCarvao__roda roda2" src="assets/img/introducao_animacao/roda.png" alt="">
                 </div>
 
-                <div class="energia__desktopWrapper__uso">
-                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
-                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
-                    <div class="energia__desktopWrapper__uso__porcentagem">
-                        <div class="energia__desktopWrapper__uso__porcentagem__mundial">6.9% 
-                            <div></div>
-                            <p>Na geração de energia mundial.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__nacional">65% 
-                            <div></div>
-                            <p>Na geração de energia nacional.</p>
-                        </div>
-                    </div>
+                <div class="introducao__divVetores__divUsina">
+                    <img class="introducao__divVetores__divUsina__fumaca fumaca1" src="assets/img/introducao_animacao/fumaça.png" alt="">
+                    <img class="introducao__divVetores__divUsina__fumaca fumaca2" src="assets/img/introducao_animacao/fumaça.png" alt="">
+                    <img class="introducao__divVetores__divUsina__fumaca fumaca3" src="assets/img/introducao_animacao/fumaça.png" alt="">
+                    <img class="introducao__divVetores__divUsina__fumaca fumaca4" src="assets/img/introducao_animacao/fumaça.png" alt="">
+                </div>
+            </div>
+            <img class="introducao__bracket content t5" src="assets/img/bracket.png" alt="">
+            
+            <div class="introducao__aquecimento content t6">
+                <div class="introducao__aquecimento--animacao">
+                </div>
+            </div>
+
+            <p class="section__paragrafo content t7">
+                Com isso foi comprovado que as <strong>fontes de <span class="spanVermelho">energia não renováveis</span> tem grande culpa nas recentes mudanças climáticas</strong> que o planeta enfrenta, por isso, é notório que <strong>as <span class="spanVerde">energias renováveis</span> estão ganhando cada vez mais destaque nos últimos anos</strong>, e sua procura subiu muito, mas afinal, como funcionam as energias renováveis?.
+            </p>
+
+            <img id="flecha" class="arrow section__arrow content t8" src="assets/img/arrow.svg" alt="Proxima seção"> 
+            
+            <div class="section__preenchimento"></div>
+        </section>
+
+        <section class="desenvolvimento">
+            <h1 class="section__titulo">Energias renováveis</h1>
+            <p class="section__paragrafo content t1">
+                As energias <strong><span>renováveis</span></strong> funcionam utilizando como fonte recursos que são encontrados em <strong><span class="spanVerde">grande quantidade no meio-ambiente</span></strong>, sendo considerados recursos <strong>inesgotáveis</strong>, além disso essas energias são consideradas <strong><span class="spanVerde">limpas</span></strong> pois é evidente que seu uso gera uma quantidade muito pequena de <span class="spanRoxo">resíduos e gases poluentes</span> se comparadas as energias não renováveis. 
+            </p>
+
+            <p class="section__paragrafo content t2">
+                Os exemplos mais simples de fontes renováveis são o vento, a água e o sol:
+            </p>
+
+            <div class="desenvolvimento__divVetores content t3">
+                <div class="desenvolvimento__divVetores__divEolica">
+                    <img src="assets/img/desenvolvimento_animacao/helice.png" class="desenvolvimento__divVetores__divEolica__helice__mobile" alt="" data-desenvolvimento-divVetores-divEolica-helice>
+                    <img src="assets/img/desenvolvimento_animacao/helice_desktop.png" class="desenvolvimento__divVetores__divEolica__helice__desktop" alt="" data-desenvolvimento-divVetores-divEolica-helice-desktop>
+                    <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento1" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento2" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento3" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento.png" class="vento4" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento5" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento6" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento7" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/vento_desktop.png" class="vento8" alt="">
                 </div>
 
+                <div class="desenvolvimento__divVetores__divHidreletrica"> 
+                    <img src="assets/img/desenvolvimento_animacao/roda.png" class="desenvolvimento__divVetores__divHidreletrica__roda__mobile" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica>
+                    <img src="assets/img/desenvolvimento_animacao/roda_desktop.png" class="desenvolvimento__divVetores__divHidreletrica__roda__desktop" alt="" data-desenvolvimento-divVetores-divHidreletrica-rodaHidrica-desktop>
+                    <img src="assets/img/desenvolvimento_animacao/agua.png" class="desenvolvimento__divVetores__divHidreletrica__agua__mobile" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/agua_desktop.png" class="desenvolvimento__divVetores__divHidreletrica__agua__desktop" alt="">
+                </div>
+
+                <div class="desenvolvimento__divVetores__divSolar">
+                    <img src="assets/img/desenvolvimento_animacao/painel.png" class="desenvolvimento__divVetores__divSolar__painel__mobile" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/sol.png" class="desenvolvimento__divVetores__divSolar__sol__mobile" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/sol_desktop.png" class="desenvolvimento__divVetores__divSolar__sol__desktop" alt="">
+                    <img src="assets/img/desenvolvimento_animacao/painel_desktop.png" class="desenvolvimento__divVetores__divSolar__painel__desktop" alt="">
+                </div>
             </div>
 
+            <p class="section__paragrafo content t4">
+                Apesar das energias <strong><span class="spanVerde">renováveis</span></strong> causarem menos impactos ambientais, elas ainda não são muito utilizadas devido ao investimento necessário para sua instalação, por isso, em geral a energia elétrica que a nossa sociedade produz ainda tem base nas energias convencionais e não renováveis. 
+            </p>
+
+            <p class="section__paragrafo content t5">
+                Entretanto, a projeção de mercado indica que esse cenário está mudando e <strong>com o tempo as fontes renováveis vão se tornar mais baratas que as fósseis</strong>, sendo mais <strong>rentáveis</strong> e tendo a capacidade de atender às necessidades globais de energia com um <strong><span class="spanVerde">baixo impacto ambiental.</span></strong>
+            </p>
+
+            <p class="section__paragrafo content t6">
+                Com isso, conclui-se que as <strong>energias renováveis</strong> são as <strong><span class="spanAzul">energias do futuro</span></strong>, e é necessário entender como cada uma delas funciona para compreender inteiramente as energias que vão reger o <strong><span class="spanAzul">futuro</span></strong> da nossa sociedade, 
+            </p>
+
+            <p class="section__paragrafo content t7">
+                Existem <strong>seis</strong> principais tipos de fontes <strong><span class="spanVerde">renováveis</span></strong>, sendo elas a solar, a hídrica, a eólica, a biomassa, a geotérmica e a maremotriz, e você vai encontrar uma explicação sobre cada uma delas abaixo:
+            </p>
+
+            <img id="flecha" class="arrow section__arrow content t8" src="assets/img/arrow.svg" alt="Proxima seção">
             
-            <div class="energia__desktopWrapper__ilustracao">
-                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/hidreletrica.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+            <div class="section__preenchimento"></div>
+        </section>
+
+        <section class="energia energia--hidrica" id="hidrica">
+            <h1 class="section__titulo">Energia Hídrica</h1>
+            <div class="energia__desktopWrapper">
+                <div class="energia__desktopWrapper__informacoes">
+                    <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
+                    <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
+                    <div class="energia__desktopWrapper__VanDes">
+
+                        <div class="energia__desktopWrapper__VanDes__vantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>É inesgotável.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não gera resíduos nem gases poluentes.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
+                            </div>
+                        </div>
+            
+                        <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
+            
+                        <div class="energia__desktopWrapper__VanDes__desvantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Custo de instalação alto.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Risco às aves locais.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                    <div class="energia__desktopWrapper__uso">
+                        <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                        <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                        <div class="energia__desktopWrapper__uso__porcentagem">
+                            <div class="energia__desktopWrapper__uso__porcentagem__mundial">6.9% 
+                                <div></div>
+                                <p>Na geração de energia mundial.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__nacional">65% 
+                                <div></div>
+                                <p>Na geração de energia nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="energia__desktopWrapper__ilustracao">
+                    <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/hidreletrica.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                </div>
             </div>
-        </div>
 
-        <div class="energia__desktopWrapper__noBrasil">
-            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
-            </p>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
-            </p>
+            <div class="energia__desktopWrapper__noBrasil">
+                <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
+                </p>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
+                </p>
 
-            <div class="carrousel-desktop">
+                <div class="carrousel-desktop">
+                    <div class="owl-carousel owl-theme">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrousel-mobile">
                 <div class="owl-carousel owl-theme">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
                 </div>
             </div>
-        </div>
-        
-        <div class="carrousel-mobile">
-            <div class="owl-carousel owl-theme">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
-            </div>
-        </div>
 
-        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-    </section>
+            <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
+        </section>
 
-    <section class="energia energia--eolica">
-        <h1 class="section__titulo">Energia Eólica</h1>
-        <div class="energia__desktopWrapper">
-            <div class="energia__desktopWrapper__informacoes">
-                <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
-                <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
-                <div class="energia__desktopWrapper__VanDes">
+        <section class="energia energia--eolica" id="eolica">
+            <h1 class="section__titulo">Energia Eólica</h1>
+            <div class="energia__desktopWrapper">
+                <div class="energia__desktopWrapper__informacoes">
+                    <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
+                    <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
+                    <div class="energia__desktopWrapper__VanDes">
 
-                    <div class="energia__desktopWrapper__VanDes__vantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>É inesgotável.</p>
+                        <div class="energia__desktopWrapper__VanDes__vantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>É inesgotável.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não gera resíduos nem gases poluentes.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
+                            </div>
                         </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não gera resíduos nem gases poluentes.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
-                        </div>
-                    </div>
-        
-                    <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
-        
-                    <div class="energia__desktopWrapper__VanDes__desvantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Custo de instalação alto.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Risco às aves locais.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
-                        </div>
-                    </div>
-        
-                </div>
-
-                <div class="energia__desktopWrapper__uso">
-                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
-                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
-                    <div class="energia__desktopWrapper__uso__porcentagem">
-                        <div class="energia__desktopWrapper__uso__porcentagem__mundial">2.5% 
-                            <div></div>
-                            <p>Na geração de energia mundial.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__nacional">8.8% 
-                            <div></div>
-                            <p>Na geração de energia nacional.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
             
-            <div class="energia__desktopWrapper__ilustracao">
-                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/eolica.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                        <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
+            
+                        <div class="energia__desktopWrapper__VanDes__desvantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Custo de instalação alto.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Risco às aves locais.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                    <div class="energia__desktopWrapper__uso">
+                        <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                        <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                        <div class="energia__desktopWrapper__uso__porcentagem">
+                            <div class="energia__desktopWrapper__uso__porcentagem__mundial">2.5% 
+                                <div></div>
+                                <p>Na geração de energia mundial.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__nacional">8.8% 
+                                <div></div>
+                                <p>Na geração de energia nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="energia__desktopWrapper__ilustracao">
+                    <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/eolica.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                </div>
             </div>
-        </div>
 
-        <div class="energia__desktopWrapper__noBrasil">
-            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
-            </p>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
-            </p>
+            <div class="energia__desktopWrapper__noBrasil">
+                <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
+                </p>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
+                </p>
 
-            <div class="carrousel-desktop">
+                <div class="carrousel-desktop">
+                    <div class="owl-carousel owl-theme">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrousel-mobile">
                 <div class="owl-carousel owl-theme">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
                 </div>
             </div>
-        </div>
-        
-        <div class="carrousel-mobile">
-            <div class="owl-carousel owl-theme">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
-            </div>
-        </div>
 
-        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-    </section>
+            <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
+        </section>
 
-    <section class="energia energia--solar">
-        <h1 class="section__titulo">Energia Solar</h1>
-        <div class="energia__desktopWrapper">
-            <div class="energia__desktopWrapper__informacoes">
-                <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
-                <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
-                <div class="energia__desktopWrapper__VanDes">
+        <section class="energia energia--solar" id="solar">
+            <h1 class="section__titulo">Energia Solar</h1>
+            <div class="energia__desktopWrapper">
+                <div class="energia__desktopWrapper__informacoes">
+                    <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
+                    <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
+                    <div class="energia__desktopWrapper__VanDes">
 
-                    <div class="energia__desktopWrapper__VanDes__vantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>É inesgotável.</p>
+                        <div class="energia__desktopWrapper__VanDes__vantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>É inesgotável.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não gera resíduos nem gases poluentes.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
+                            </div>
                         </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não gera resíduos nem gases poluentes.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
-                        </div>
-                    </div>
-        
-                    <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
-        
-                    <div class="energia__desktopWrapper__VanDes__desvantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Custo de instalação alto.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Risco às aves locais.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
-                        </div>
-                    </div>
-        
-                </div>
-
-                <div class="energia__desktopWrapper__uso">
-                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
-                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
-                    <div class="energia__desktopWrapper__uso__porcentagem">
-                        <div class="energia__desktopWrapper__uso__porcentagem__mundial">1.4% 
-                            <div></div>
-                            <p>Na geração de energia mundial.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__nacional">1.6% 
-                            <div></div>
-                            <p>Na geração de energia nacional.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
             
-            <div class="energia__desktopWrapper__ilustracao">
-                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/solar.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                        <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
+            
+                        <div class="energia__desktopWrapper__VanDes__desvantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Custo de instalação alto.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Risco às aves locais.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                    <div class="energia__desktopWrapper__uso">
+                        <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                        <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                        <div class="energia__desktopWrapper__uso__porcentagem">
+                            <div class="energia__desktopWrapper__uso__porcentagem__mundial">1.4% 
+                                <div></div>
+                                <p>Na geração de energia mundial.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__nacional">1.6% 
+                                <div></div>
+                                <p>Na geração de energia nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="energia__desktopWrapper__ilustracao">
+                    <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/solar.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                </div>
             </div>
-        </div>
 
-        <div class="energia__desktopWrapper__noBrasil">
-            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
-            </p>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
-            </p>
+            <div class="energia__desktopWrapper__noBrasil">
+                <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
+                </p>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
+                </p>
 
-            <div class="carrousel-desktop">
+                <div class="carrousel-desktop">
+                    <div class="owl-carousel owl-theme">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrousel-mobile">
                 <div class="owl-carousel owl-theme">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
                 </div>
             </div>
-        </div>
-        
-        <div class="carrousel-mobile">
-            <div class="owl-carousel owl-theme">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
-            </div>
-        </div>
 
-        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-    </section>
+            <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
+        </section>
 
-    <section class="energia energia--biomassa">
-        <h1 class="section__titulo">Energia da Biomassa</h1>
-        <div class="energia__desktopWrapper">
-            <div class="energia__desktopWrapper__informacoes">
-                <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
-                <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
-                <div class="energia__desktopWrapper__VanDes">
+        <section class="energia energia--biomassa" id="biomassa">
+            <h1 class="section__titulo">Energia da Biomassa</h1>
+            <div class="energia__desktopWrapper">
+                <div class="energia__desktopWrapper__informacoes">
+                    <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
+                    <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
+                    <div class="energia__desktopWrapper__VanDes">
 
-                    <div class="energia__desktopWrapper__VanDes__vantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>É inesgotável.</p>
+                        <div class="energia__desktopWrapper__VanDes__vantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>É inesgotável.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não gera resíduos nem gases poluentes.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
+                            </div>
                         </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não gera resíduos nem gases poluentes.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
-                        </div>
-                    </div>
-        
-                    <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
-        
-                    <div class="energia__desktopWrapper__VanDes__desvantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Custo de instalação alto.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Risco às aves locais.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
-                        </div>
-                    </div>
-        
-                </div>
-
-                <div class="energia__desktopWrapper__uso">
-                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
-                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
-                    <div class="energia__desktopWrapper__uso__porcentagem">
-                        <div class="energia__desktopWrapper__uso__porcentagem__mundial">1.0% 
-                            <div></div>
-                            <p>Na geração de energia mundial.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__nacional">9.1% 
-                            <div></div>
-                            <p>Na geração de energia nacional.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
             
-            <div class="energia__desktopWrapper__ilustracao">
-                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/biomassa.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                        <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
+            
+                        <div class="energia__desktopWrapper__VanDes__desvantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Custo de instalação alto.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Risco às aves locais.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                    <div class="energia__desktopWrapper__uso">
+                        <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                        <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                        <div class="energia__desktopWrapper__uso__porcentagem">
+                            <div class="energia__desktopWrapper__uso__porcentagem__mundial">1.0% 
+                                <div></div>
+                                <p>Na geração de energia mundial.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__nacional">9.1% 
+                                <div></div>
+                                <p>Na geração de energia nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="energia__desktopWrapper__ilustracao">
+                    <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/biomassa.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                </div>
             </div>
-        </div>
 
-        <div class="energia__desktopWrapper__noBrasil">
-            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
-            </p>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
-            </p>
+            <div class="energia__desktopWrapper__noBrasil">
+                <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
+                </p>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
+                </p>
 
-            <div class="carrousel-desktop">
+                <div class="carrousel-desktop">
+                    <div class="owl-carousel owl-theme">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrousel-mobile">
                 <div class="owl-carousel owl-theme">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
                 </div>
             </div>
-        </div>
-        
-        <div class="carrousel-mobile">
-            <div class="owl-carousel owl-theme">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
-            </div>
-        </div>
 
-        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-    </section>
+            <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
+        </section>
 
-    <section class="energia energia--geotermica">
-        <h1 class="section__titulo">Energia Geotérmica</h1>
-        <div class="energia__desktopWrapper">
-            <div class="energia__desktopWrapper__informacoes">
-                <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
-                <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
-                <div class="energia__desktopWrapper__VanDes">
+        <section class="energia energia--geotermica" id="geotermica">
+            <h1 class="section__titulo">Energia Geotérmica</h1>
+            <div class="energia__desktopWrapper">
+                <div class="energia__desktopWrapper__informacoes">
+                    <p>A energia <span class="spanVerde"><strong>eólica</strong></span> é a energia que usa o <span class="spanVerde"><strong>vento</strong></span> como fonte de seu funcionamento, os ventos são os responsáveis por <strong>movimentar as hélices das turbinas eólicas</strong> e gerar a <strong> força mecânica</strong> que é convertida em energia elétrica por meio de um gerador.</p>
+                    <p>Essa energia é pouco explorada <strong>mundialmente</strong> mas tem <strong>grande potencial de crescimento</strong>, ela pode ser usada para geração de energia <strong>em massa</strong> e também pode ser usada para gerar energia em escala menor, <strong>residencialmente</strong> por exemplo, um sistema de energia eólica residencial custa entre <span class="spanVerde">R$</span> 10 mil e <span class="spanVerde">R$</span> 75 mil.</p>
+                    <div class="energia__desktopWrapper__VanDes">
 
-                    <div class="energia__desktopWrapper__VanDes__vantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>É inesgotável.</p>
+                        <div class="energia__desktopWrapper__VanDes__vantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>É inesgotável.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não gera resíduos nem gases poluentes.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
+                            </div>
                         </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não gera resíduos nem gases poluentes.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Os parque eólicos são compatíveis com outros usos e utilizações do terreno como a agricultura e a criação de gado.</p>
-                        </div>
-                    </div>
-        
-                    <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
-        
-                    <div class="energia__desktopWrapper__VanDes__desvantagens">
-                        <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Custo de instalação alto.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Risco às aves locais.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
-                        </div>
-                    </div>
-        
-                </div>
-
-                <div class="energia__desktopWrapper__uso">
-                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
-                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
-                    <div class="energia__desktopWrapper__uso__porcentagem estouro">
-                        <div class="energia__desktopWrapper__uso__porcentagem__mundial estouro">Menos de 0.46% 
-                            <div></div>
-                            <p>Na geração de energia mundial.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__nacional estouro">Nulo 
-                            <div></div>
-                            <p>Na geração de energia nacional.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
             
-            <div class="energia__desktopWrapper__ilustracao">
-                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/geotermica.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                        <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
+            
+                        <div class="energia__desktopWrapper__VanDes__desvantagens">
+                            <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Custo de instalação alto.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Risco às aves locais.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>O vento é muito irregular, então a geração de energia pode ser imprevisível.</p>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                    <div class="energia__desktopWrapper__uso">
+                        <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                        <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                        <div class="energia__desktopWrapper__uso__porcentagem estouro">
+                            <div class="energia__desktopWrapper__uso__porcentagem__mundial estouro">Menos de 0.46% 
+                                <div></div>
+                                <p>Na geração de energia mundial.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__nacional estouro">Nulo 
+                                <div></div>
+                                <p>Na geração de energia nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="energia__desktopWrapper__ilustracao">
+                    <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/geotermica.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                </div>
             </div>
-        </div>
 
-        <div class="energia__desktopWrapper__noBrasil">
-            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
-            </p>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
-            </p>
+            <div class="energia__desktopWrapper__noBrasil">
+                <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Atualmente, a energia eólica é responsável por uma boa parte da produção de energia limpa no país, a região de maior destaque em termos de geração é o <strong>Nordeste</strong>, que é <a href="https://guiadoestudante.abril.com.br/atualidades/entenda-como-e-o-setor-de-energia-eolica-no-brasil/" target="_blank">responsavel por 89% de toda a eletricidade</a> produzida dessa forma no país.
+                </p>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Um exemplo de aplicação dessa energia do Brasil é o Parque Eólico Lagoa dos Ventos, ele é o maior parque eólico da américa do sul e alimenta com energia limpa as cidades do Piauí e de outras regiões do nordeste, <a href="https://www.enelgreenpower.com/pt/nossos-projetos/highlights/parque-eolico-lagoa-dos-ventos" target="_blank">saiba mais</a>.
+                </p>
 
-            <div class="carrousel-desktop">
+                <div class="carrousel-desktop">
+                    <div class="owl-carousel owl-theme">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrousel-mobile">
                 <div class="owl-carousel owl-theme">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
                 </div>
             </div>
-        </div>
-        
-        <div class="carrousel-mobile">
-            <div class="owl-carousel owl-theme">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im1.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im2.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__eolica/im3.png" alt="">
-            </div>
-        </div>
 
-        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-    </section>
- 
-    <section class="energia energia--maremotriz">
-        <h1 class="section__titulo">Energia Maremotriz</h1>
-        <div class="energia__desktopWrapper">
-            <div class="energia__desktopWrapper__informacoes">
-               <p>Energia oceânica ou energia <strong><span class="spanOceano">maremotriz</span></strong> é a energia que utiliza o movimento das marés ou de ondas como forma de seu funcionamento, há vários meios diferentes de produção dessa energia renovável, mas <strong>todos se baseiam na força do movimento das ondas</strong>, que é convertida em energia elétrica posteriormente.</p>
-               <p>Como o meio de geração dessa energia depende muito da <strong>posição geografica</strong> do lugar, de modo que essa energia é capaz de ser utilizada em sua total eficiência apenas em países com grande parte de sua população voltada ao mar, ela <strong>não é muito utilizada em geral</strong>, mas isso pode mudar no futuro, seu custo de instalação varia de <span class="spanOceano">US$</span> 800 mil a <span class="spanOceano">US$</span> 1,5 Milhão por Watts de potência instalada.</p>
-                <div class="energia__desktopWrapper__VanDes">
+            <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
+        </section>
+    
+        <section class="energia energia--maremotriz" id="maremotriz">
+            <h1 class="section__titulo">Energia Maremotriz</h1>
+            <div class="energia__desktopWrapper">
+                <div class="energia__desktopWrapper__informacoes">
+                <p>Energia oceânica ou energia <strong><span class="spanOceano">maremotriz</span></strong> é a energia que utiliza o movimento das marés ou de ondas como forma de seu funcionamento, há vários meios diferentes de produção dessa energia renovável, mas <strong>todos se baseiam na força do movimento das ondas</strong>, que é convertida em energia elétrica posteriormente.</p>
+                <p>Como o meio de geração dessa energia depende muito da <strong>posição geografica</strong> do lugar, de modo que essa energia é capaz de ser utilizada em sua total eficiência apenas em países com grande parte de sua população voltada ao mar, ela <strong>não é muito utilizada em geral</strong>, mas isso pode mudar no futuro, seu custo de instalação varia de <span class="spanOceano">US$</span> 800 mil a <span class="spanOceano">US$</span> 1,5 Milhão por Watts de potência instalada.</p>
+                    <div class="energia__desktopWrapper__VanDes">
 
-                    <div class="energia__desktopWrapper__VanDes__vantagens vanDes--maremotriz">
-                        <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>É inesgotável</p>
+                        <div class="energia__desktopWrapper__VanDes__vantagens vanDes--maremotriz">
+                            <h1 class="energia__desktopWrapper__VanDes__vantagens__titulo">Vantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>É inesgotável</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não é poluente</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVerde.png" alt="">
+                                <p>Não requer material muito sofisticado</p>
+                            </div>
                         </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não é poluente</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVerde.png" alt="">
-                            <p>Não requer material muito sofisticado</p>
-                        </div>
-                    </div>
-        
-                    <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
-        
-                    <div class="energia__desktopWrapper__VanDes__desvantagens vanDes--maremotriz">
-                        <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>O fornecimento de energia não é contínuo, ele varia muito.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>Sua eficiência é 20%, ela não aproveita muito o potencial da fonte de energia</p>
-                        </div>
-                        <div class="energia__desktopWrapper__VanDes__case">
-                            <img src="assets/img/setaCaseVermelha.png" alt="">
-                            <p>São necessárias marés superiores a 5 metros para que este tipo de energia seja rentável</p>
-                        </div>
-                    </div>
-        
-                </div>
-
-                <div class="energia__desktopWrapper__uso">
-                    <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
-                    <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
-                    <div class="energia__desktopWrapper__uso__porcentagem estouro">
-                        <div class="energia__desktopWrapper__uso__porcentagem__mundial estouro">Menos de 0.46% 
-                            <div></div>
-                            <p>Na geração de energia mundial.</p>
-                        </div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
-                        <div class="energia__desktopWrapper__uso__porcentagem__nacional estouro">Nulo 
-                            <div></div>
-                            <p>Na geração de energia nacional.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
             
-            <div class="energia__desktopWrapper__ilustracao">
-                <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/maremotriz.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
-                <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                        <div class="energia__desktopWrapper__VanDes__divisor"><div></div><div></div></div>
+            
+                        <div class="energia__desktopWrapper__VanDes__desvantagens vanDes--maremotriz">
+                            <h1 class="energia__desktopWrapper__VanDes__desvantagens__titulo">Desvantagens</h1>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>O fornecimento de energia não é contínuo, ele varia muito.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>Sua eficiência é 20%, ela não aproveita muito o potencial da fonte de energia</p>
+                            </div>
+                            <div class="energia__desktopWrapper__VanDes__case">
+                                <img src="assets/img/setaCaseVermelha.png" alt="">
+                                <p>São necessárias marés superiores a 5 metros para que este tipo de energia seja rentável</p>
+                            </div>
+                        </div>
+            
+                    </div>
+
+                    <div class="energia__desktopWrapper__uso">
+                        <h1 class="energia__desktopWrapper__uso__titulo">Uso</h1>
+                        <p class="energia__desktopWrapper__uso__paragrafo">Participação da energia eólica na geração de energia mundial e no Brasil.</p>
+                        <div class="energia__desktopWrapper__uso__porcentagem estouro">
+                            <div class="energia__desktopWrapper__uso__porcentagem__mundial estouro">Menos de 0.46% 
+                                <div></div>
+                                <p>Na geração de energia mundial.</p>
+                            </div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__divisor"></div>
+                            <div class="energia__desktopWrapper__uso__porcentagem__nacional estouro">Nulo 
+                                <div></div>
+                                <p>Na geração de energia nacional.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+                <div class="energia__desktopWrapper__ilustracao">
+                    <img class="energia__desktopWrapper__ilustracao__principal" src="assets/img/energias/maremotriz.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem1--eolica" src="assets/img/energias/nuvem1.png">
+                    <img class="energia__desktopWrapper__ilustracao__nuvem nuvem2--eolica" src="assets/img/energias/nuvem2.png">
+                </div>
             </div>
-        </div>
 
-        <div class="energia__desktopWrapper__noBrasil">
-            <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                A energia <strong><span class="spanOceano">maremotriz</span></strong> é pouco utilizada no Brasil, sendo utilizada em poucos estuários (transição entre um rio e o mar) e apenas em<strong>um protótipo de usina</strong> instalada no Porto de Pecém, no Ceará.</p>
-            <p class="energia__desktopWrapper__noBrasil__paragrafo">
-                Essa energia é utilizada principalmente pelas regiões norte e nordeste do país, sendo o estuário do Rio Bacanga, em Sao Luis (MA) onde há <strong>marés de 7 metros</strong> e na ilha de Macapa (AP) que tem <strong>marés de ate 11 metros</strong>. O protótipo da usina no Porto de Pacém tem como objetivo usar a energia das <strong><span class="spanOceano"></span>ondas</strong>, para gerar abastecimento para principal do porto cearense.
-            </p>
+            <div class="energia__desktopWrapper__noBrasil">
+                <h1 class="energia__desktopWrapper__noBrasil__titulo">No Brasil</h1>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    A energia <strong><span class="spanOceano">maremotriz</span></strong> é pouco utilizada no Brasil, sendo utilizada em poucos estuários (transição entre um rio e o mar) e apenas em<strong>um protótipo de usina</strong> instalada no Porto de Pecém, no Ceará.</p>
+                <p class="energia__desktopWrapper__noBrasil__paragrafo">
+                    Essa energia é utilizada principalmente pelas regiões norte e nordeste do país, sendo o estuário do Rio Bacanga, em Sao Luis (MA) onde há <strong>marés de 7 metros</strong> e na ilha de Macapa (AP) que tem <strong>marés de ate 11 metros</strong>. O protótipo da usina no Porto de Pacém tem como objetivo usar a energia das <strong><span class="spanOceano"></span>ondas</strong>, para gerar abastecimento para principal do porto cearense.
+                </p>
 
-            <div class="carrousel-desktop">
+                <div class="carrousel-desktop">
+                    <div class="owl-carousel owl-theme">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/1.jpg" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/2.webp" alt="">
+                        <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="carrousel-mobile">
                 <div class="owl-carousel owl-theme">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/1.jpg" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/2.webp" alt="">
                     <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/3.jpg" alt="">
                 </div>
             </div>
-        </div>
-        
-        <div class="carrousel-mobile">
-            <div class="owl-carousel owl-theme">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/1.jpg" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/2.webp" alt="">
-                <img class="energia__desktopWrapper__noBrasil__imagem" src="assets/img/energias/carrousel__maremotriz/3.jpg" alt="">
-            </div>
-        </div>
 
-        <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
-    </section>
+            <img id="flecha" class="arrow section__arrow section__arrow--energia content t8" src="assets/img/arrow.svg" alt="Proxima seção">
+        </section>
 
-</main>
-
-
+    </main>
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
