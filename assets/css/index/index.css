@@ -50,3 +50,19 @@ body {
 .spanGeotermica{
     color: #FF9429;
 }
+
+@media screen and (min-width: 1024px) {
+    ::-webkit-scrollbar {
+        width: 16px;
+    }
+    ::-webkit-scrollbar-track {
+        background: unset;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background: var(--verdelogo);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--verdepositivo);
+    }
+}

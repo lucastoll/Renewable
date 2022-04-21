@@ -27,10 +27,13 @@
     position: absolute;
     z-index: 1;
     left: 4px;
+    animation: gira 6s infinite linear;
+
 }
 
 .desenvolvimento__divVetores__divEolica__helice__desktop{
     display: none;
+    animation: gira 6s infinite linear;
 }
 
 @media screen and (min-width: 1024px) {
@@ -43,6 +46,15 @@
         position: absolute;
         z-index: 1;
         left: 2px;
+    }
+}
+
+@keyframes gira {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
     }
 }
 

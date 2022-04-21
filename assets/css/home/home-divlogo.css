@@ -9,6 +9,7 @@
 .home__divlogo__iconloop{
     position: absolute;
     height: 260px;
+    animation: gira 6s infinite linear;
 }
 
 .home__divlogo__icon{
@@ -27,4 +28,14 @@
     .home__divlogo{
         margin-top: 50px;
     }    
+}
+
+
+@keyframes gira {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
