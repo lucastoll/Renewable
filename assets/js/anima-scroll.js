@@ -1,5 +1,6 @@
 const sections = [...document.querySelectorAll("section")];
-let backbutton = document.querySelector("[data-backbutton]")
+const navbar = document.querySelector(".navbar");
+const home = document.getElementById("home");
 
 let options = {
   rootMargin: "0px",
@@ -13,6 +14,20 @@ const { target } = entry;
 if (entry.intersectionRatio >= 0.25) {
 target.classList.add("is-visible");
 }
+
+if(window.innerWidth > 1440){
+  if(home.getBoundingClientRect().top > -1000)
+  {
+    navbar.style.padding = "0px 40px"
+  }
+  else if(target.classList.contains("energia"))
+  {
+    navbar.style.padding = "0px 17px"
+  }
+}
+
+
+
   });
 };
 

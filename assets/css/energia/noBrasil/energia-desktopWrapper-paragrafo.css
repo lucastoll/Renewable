@@ -19,3 +19,12 @@ a:link {
 text-decoration: underline;
 color: green;
 }
+
+.linkSolar{
+    color: #FFB700 !important;
+}
+
+.linkSolar:link {
+text-decoration: underline;
+color: #FFB700 !important;
+}

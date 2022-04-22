@@ -37,32 +37,32 @@
 }
 
 .nuvem1--eolica{
-    top: 50px;
+    top: 30px;
     left: 55px;
-    animation: nuvem1__eolica 40s alternate infinite;
+    animation: nuvem1 40s alternate infinite;
 }
 
 
 .nuvem2--eolica{
-    top: 90px;
+    top: 50px;
     left: 380px;
-    animation: nuvem2__eolica 25s alternate infinite;
+    animation: nuvem2 25s alternate infinite;
 }
 
 @media screen and (max-width: 1200px){
     .nuvem1--eolica{
-        animation: nuvem1__eolica--1024 40s alternate infinite;
+        animation: nuvem1--1024 40s alternate infinite;
     }
     
     
     .nuvem2--eolica{
-        animation: nuvem2__eolica--1024 25s alternate infinite;
+        animation: nuvem2--1024 25s alternate infinite;
     }
     
 }
 
 
-@keyframes nuvem1__eolica {
+@keyframes nuvem1 {
     0%{
         left: 55px;
     }
@@ -71,7 +71,7 @@
     }
 }
 
-@keyframes nuvem2__eolica {
+@keyframes nuvem2 {
     0%{
         left: 380px;
     }
@@ -81,7 +81,7 @@
 }
 
 
-@keyframes nuvem1__eolica--1024 {
+@keyframes nuvem1--1024 {
     0%{
         left: 55px;
     }
@@ -90,7 +90,7 @@
     }
 }
 
-@keyframes nuvem2__eolica--1024 {
+@keyframes nuvem2--1024 {
     0%{
         left: 300px;
     }
@@ -98,6 +98,31 @@
         left: 55px;
     }
 }
+
+.nuvem1--hidrica{
+    top: -30px;
+    left: 55px;
+    animation: nuvem1 40s alternate infinite;
+}
+
+.nuvem2--hidrica{
+    top: -30px;
+    left: 380px;
+    animation: nuvem2 25s alternate infinite;
+}
+
+@media screen and (max-width: 1200px){
+    .nuvem1--hidrica{
+        animation: nuvem1--1024 40s alternate infinite;
+    }
+    
+    
+    .nuvem2--hidrica{
+        animation: nuvem2--1024 25s alternate infinite;
+    }
+    
+}
+
 
 .energia__desktopWrapper__ilustracao__sol{
     width: 100px;
