@@ -1,21 +1,35 @@
 .section__arrow{
     justify-self: flex-end;
     position: absolute;
-    bottom: 450px;
-    animation: arrow_animation_section 1s alternate infinite;
+    bottom: 650px;
+    animation: arrow_animation_section 1.5s alternate infinite linear;
 }
-
-
 
 @keyframes arrow_animation_section {
-    from{
+    0%{
+        bottom: 550px;
+    }
+    100%{
+        bottom: 650px;
+    }
+}
+
+@keyframes arrow_animation_section__desktop {
+    0%{
         bottom: 250px;
     }
-    to{
-        bottom: 170px;
+    100%{
+        bottom: 350px;
     }
 }
 
 
-
-
+@media screen and (min-width: 1023px) {
+    .section__arrow{
+        justify-self: flex-end;
+        position: absolute;
+        bottom: 250px;
+        animation: arrow_animation_section__desktop 1.5s alternate infinite linear;
+    }
+}
+ 

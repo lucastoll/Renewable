@@ -1,9 +1,8 @@
 .energia{
-    padding: 70px;
+    padding: 0px 70px;
     position: relative;
     font-size: 18px;
     height: auto;
-    padding-bottom: 400px;
     gap: 30px;
 }
 
@@ -11,7 +10,7 @@
     .energia{
         padding: 30px;
         font-size: 16px;
-        padding-bottom: 450px;
+        padding-bottom: 700px;
     }
 }
 

@@ -6,7 +6,8 @@
     margin-top: 400px;
     scroll-snap-stop: always;
     text-align: justify;
-    padding-top: 100px !important;
+    padding-top: 100px;
+    padding-bottom: 700px;
 }
 
 .section__titulo{
@@ -15,13 +16,12 @@
     text-align: center;
 }
 
-.section__preenchimento{
-    margin-bottom: 250px;
-}
-
-
 @media screen and (min-width: 1023px) {
     .section__titulo{
         font-size: 46px;
+    }
+
+    .introducao, .desenvolvimento, .energia, .projetos{
+        padding-bottom: 400px;
     }
 }
