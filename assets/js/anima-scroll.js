@@ -25,9 +25,6 @@ if(window.innerWidth > 1440){
     navbar.style.padding = "0px 17px"
   }
 }
-
-
-
   });
 };
 

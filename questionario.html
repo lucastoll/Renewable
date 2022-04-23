@@ -4,10 +4,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <!-- NAVBAR -->
-  <link rel="stylesheet" href="assets/css/questionario/questionario.css">
-  <!-- QUESTIONARIO -->
   <link rel="stylesheet" href="assets/css/navbar/navbar.css">
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- QUESTIONARIO -->
+  <link rel="stylesheet" href="assets/css/questionario/questionario.css">
+  <!-- POPUP -->
+  <link rel="stylesheet" href="assets/css/questionario/popup.css">
   <link rel="icon" href="assets/img/icon.png">
   <title>Renewable</title>
 </head>
@@ -61,65 +63,101 @@
 
   	  		<div id="question-1">
   	  		  <h2>Questão 1</h2>
-  	  			<h3>Quais são os problemas enfrentados ao se utilizar a energia solar?</h3>
-            <div style="display: flex; flex-direction: column;">
-              <div class="opcao"><input id="question-1-answer-b" type="radio" name="favelang" value="0"> Alto custo de investimento e utilização exclusivamente residencial.</div>
-              <div class="opcao"><input id="question-1-answer-a" type="radio" name="favelang" value="1"> Alto custo de investimento e incapacidade de gerar energia a noite.</div>
-              <div class="opcao"><input id="question-1-answer-c" type="radio" name="favelang" value="0"> Falta de equipamentos capacitados e alto custo de investimento.</div>
-              <div class="opcao"><input id="question-1-answer-d" type="radio" name="favelang" value="0"> Muita necessidade de manunteção e falta de equipamentos capacitados</div>
-            </div>
-  				  <div id="submit1" class="button">Enviar resposta</div>
-  			  </div>
-
-  			 <div id="question-2">
-  				 <h2>Questão 2</h2>
-           <h3>Qual região brasileira concentra a maior parte das usinas eólicas do país?</h3>
-           <div style="display: flex; flex-direction: column;">
-             <div class="opcao"><input id="question-2-answer-b" type="radio" name="favelang" value="0"> Sul</div>
-             <div class="opcao"><input id="question-2-answer-a" type="radio" name="favelang" value="0"> Norte</div>
-             <div class="opcao"><input id="question-2-answer-c" type="radio" name="favelang" value="0"> Sudeste</div>
-             <div class="opcao"><input id="question-2-answer-d" type="radio" name="favelang" value="1"> Nordeste</div>
-           </div>
-           <div id="submit2" class="button">Enviar resposta</div>
-  			 </div>
-  			
-  			 <div id="question-3">	
-  				 <h2>Questão 3</h2>
-           <h3>Qual tipo de energia é obtida por meio do calor gerado no interior da crosta terrestre, instalada em áreas com intensa atividade vulcânica?</h3>
-           <div style="display: flex; flex-direction: column;">
-             <div class="opcao"><input id="question-3-answer-b" type="radio" name="favelang" value="0"> Energia Nuclear</div>
-             <div class="opcao"><input id="question-3-answer-a" type="radio" name="favelang" value="0"> Energia Maremotriz</div>
-             <div class="opcao"><input id="question-3-answer-c" type="radio" name="favelang" value="1"> Energia Geotérmica</div>
-             <div class="opcao"><input id="question-3-answer-d" type="radio" name="favelang" value="0"> Energia Eólica</div>
-           </div>
-           <div id="submit3" class="button">Enviar resposta</div>
-  			 </div>
-
-         <div id="question-4">
-            <h2>Questão 4</h2>
             <h3>Por que as energias renováveis levam vantagem sobre as não renováveis?</h3>
             <div style="display: flex; flex-direction: column;">
-              <div class="opcao"><input id="question-4-answer-a" type="radio" name="favelang" value="0"> Elas tem custo de investimento baixo e utilizam recursos naturais inesgotáveis.</div>
-              <div class="opcao"><input id="question-4-answer-c" type="radio" name="favelang" value="0"> Elas dependem de combustíveis fósseis, sendo consideradas energias limpas.</div>
-              <div class="opcao"><input id="question-4-answer-b" type="radio" name="favelang" value="1"> Elas são energias limpas e utilizam recursos naturais inesgotáveis.</div>
-              <div class="opcao"><input id="question-4-answer-d" type="radio" name="favelang" value="0"> Elas emitem gases poluentes, sendo consideradas energias limpas.</div>
+              <div class="opcao"><input id="question-1-answer-b" type="radio" name="favelang" value="1"> Elas são energias limpas e utilizam recursos naturais inesgotáveis.</div>
+              <div class="opcao"><input id="question-1-answer-a" type="radio" name="favelang" value="0"> Elas tem custo de investimento baixo e utilizam recursos naturais inesgotáveis.</div>
+              <div class="opcao"><input id="question-1-answer-c" type="radio" name="favelang" value="0"> Elas dependem de recursos naturais inesgotáveis chamados combustíveis fósseis</div>
+              <div class="opcao"><input id="question-1-answer-d" type="radio" name="favelang" value="0"> Elas emitem gases poluentes, sendo consideradas energias limpas.</div>
+            </div>
+            <div id="submit1" class="button">Enviar resposta</div>
+  			  </div>
+          
+          <div id="question-2">	
+            <h2>Questão 2</h2>
+            <h3>Como o uso das energias não renováveis impacta no meio ambiente?</h3>
+            <div style="display: flex; flex-direction: column;">
+              <div class="opcao"><input id="question-2-answer-a" type="radio" name="favelang" value="1"> Impacta negativamente, pois emitem gases poluentes que contribuem para o efeito estufa.</div>
+              <div class="opcao"><input id="question-3-answer-b" type="radio" name="favelang" value="0"> Impacta positivamente, pois elas utilizam fontes de energia que são infinitas na natureza.</div>
+              <div class="opcao"><input id="question-2-answer-c" type="radio" name="favelang" value="0"> Impacta positivamente, pois não emitem gases poluentes.</div>
+              <div class="opcao"><input id="question-2-answer-d" type="radio" name="favelang" value="0"> Impacta negativamente, pois seu uso melhora a qualidade do ar</div>
+            </div>
+           <div id="submit2" class="button">Enviar resposta</div>
+          </div>
+
+           <div id="question-3">
+            <h2>Questão 3</h2>
+            <h3>Quais tipos de energias renováveis tem mercado para serem usadas residencialmente?</h3>
+            <div style="display: flex; flex-direction: column;">
+              <div class="opcao"><input id="question-3-answer-c" type="radio" name="favelang" value="1"> Energia solar e eólica.</div>
+              <div class="opcao"><input id="question-3-answer-b" type="radio" name="favelang" value="0"> Energia hidrica e maremotriz.</div>
+              <div class="opcao"><input id="question-3-answer-a" type="radio" name="favelang" value="0"> Energia eólica e hídrica.</div>
+              <div class="opcao"><input id="question-3-answer-d" type="radio" name="favelang" value="0"> Energia solar e geotérmica.</div>
+            </div>
+            <div id="submit3" class="button">Enviar resposta</div>
+           </div>
+
+           <div id="question-4">
+            <h2>Questão 4</h2>
+            <h3>Que tipo de energia é responsável pela maior parte da geração de energia no Brasil?</h3>
+            <div style="display: flex; flex-direction: column;">
+              <div class="opcao"><input id="question-4-answer-b" type="radio" name="favelang" value="1"> Energia hidríca</div>
+              <div class="opcao"><input id="question-4-answer-a" type="radio" name="favelang" value="0"> Energia solar</div>
+              <div class="opcao"><input id="question-4-answer-c" type="radio" name="favelang" value="0"> Energia eólica</div>
+              <div class="opcao"><input id="question-4-answer-d" type="radio" name="favelang" value="0"> Energias não renováveis</div>
             </div>
   				  <div id="submit4" class="button">Enviar resposta</div>
           </div>
-
+          
           <div id="question-5">
-            <h2>Questão 5</h2>
-            <h3>Que tipo de energia é responsável pela maior parte da geração de energia no Brasil?</h3>
+             <h2>Questão 5</h2>
+             <h3>Qual região brasileira concentra a maior parte das usinas eólicas do país?</h3>
+             <div style="display: flex; flex-direction: column;">
+              <div class="opcao"><input id="question-5-answer-d" type="radio" name="favelang" value="1"> Nordeste</div>
+              <div class="opcao"><input id="question-5-answer-b" type="radio" name="favelang" value="0"> Sul</div>
+              <div class="opcao"><input id="question-5-answer-a" type="radio" name="favelang" value="0"> Norte</div>
+              <div class="opcao"><input id="question-5-answer-c" type="radio" name="favelang" value="0"> Sudeste</div>
+             </div>
+             <div id="submit5" class="button">Enviar resposta</div>
+          </div>
+          
+          <div id="question-6">
+            <h2>Questão 6</h2>
+            <h3>Qual tipo de energia renovável funciona através da queima e decomposição do material orgânico?</h3>
             <div style="display: flex; flex-direction: column;">
-              <div class="opcao"><input id="question-5-answer-b" type="radio" name="favelang" value="1"> Energia hidríca</div>
-              <div class="opcao"><input id="question-5-answer-a" type="radio" name="favelang" value="0"> Energia solar</div>
-              <div class="opcao"><input id="question-5-answer-c" type="radio" name="favelang" value="0"> Energia eólica</div>
-              <div class="opcao"><input id="question-5-answer-d" type="radio" name="favelang" value="0"> Energias não renováveis</div>
+              <div class="opcao"><input id="question-6-answer-d" type="radio" name="favelang" value="1"> Energia da biomassa.</div>
+              <div class="opcao"><input id="question-6-answer-b" type="radio" name="favelang" value="0"> Energia solar.</div>
+              <div class="opcao"><input id="question-6-answer-a" type="radio" name="favelang" value="0"> Energia maremotriz.</div>
+              <div class="opcao"><input id="question-6-answer-c" type="radio" name="favelang" value="0"> Energia geotermica.</div>
             </div>
-  				  <div id="submit5" class="button">Enviar resposta</div>
+  				  <div id="submit6" class="button">Enviar resposta</div>
           </div>
 
-         <div id="question-6"> 
+          <div id="question-7">	
+  				  <h2>Questão 7</h2>
+            <h3>Qual tipo de energia é obtida por meio do calor gerado no interior da crosta terrestre, instalada em áreas com intensa atividade vulcânica?</h3>
+            <div style="display: flex; flex-direction: column;">
+              <div class="opcao"><input id="question-7-answer-c" type="radio" name="favelang" value="1"> Energia Geotérmica</div>
+              <div class="opcao"><input id="question-7-answer-b" type="radio" name="favelang" value="0"> Energia Solar</div>
+              <div class="opcao"><input id="question-7-answer-a" type="radio" name="favelang" value="0"> Energia Maremotriz</div>
+              <div class="opcao"><input id="question-7-answer-d" type="radio" name="favelang" value="0"> Energia Eólica</div>
+            </div>
+           <div id="submit7" class="button">Enviar resposta</div>
+          </div>
+          
+          <div id="question-8">
+            <h2>Questão 8</h2>
+            <h3>A energia maremotriz pode ser usada em sua total eficiência em países com a densidade populacional voltada para:</h3>
+            <div style="display: flex; flex-direction: column;">
+              <div class="opcao"><input id="question-8-answer-a" type="radio" name="favelang" value="1"> O mar</div>
+              <div class="opcao"><input id="question-8-answer-b" type="radio" name="favelang" value="0"> O campo</div>
+              <div class="opcao"><input id="question-8-answer-c" type="radio" name="favelang" value="0"> A floresta</div>
+              <div class="opcao"><input id="question-8-answer-d" type="radio" name="favelang" value="0"> As montanhas</div>
+            </div>
+  				  <div id="submit8" class="button">Enviar resposta</div>
+          </div>
+
+         <div id="question-9"> 
            <h2>Fim do quiz.</h2>
            <h3>Repostas corretas: </h3>
            <input style="display: none;" id="somafinal" type="text" name="RepostasCorretas" value="0">
@@ -130,43 +168,18 @@
          </div>
   	  	</form>
 
+        <div class="container_popup" id="containerpopup">
+          <div id="popup" class="projetopopup">
+              <h2>Obrigado!</h2>
+              <p>Seus resultados foram enviados e vão contribuir para a validação do site, confira os projetos sobre energias renováveis na aba projetos ou retorne para a página principal caso desejar.</p>
+          </div>
+        </div>
   	  </div>
   	</div>
   </main>
+
 
 </body>
 </html>
 
 <script src="assets/js/questionario.js"></script>
-<script>
-var form = document.getElementById("my-form");
-
-async function handleSubmit(event) {
-  event.preventDefault();
-  var status = document.getElementById("my-form-status");
-  var data = new FormData(event.target);
-  fetch(event.target.action, {
-    method: form.method,
-    body: data,
-    headers: {
-        'Accept': 'application/json'
-    }
-  }).then(response => {
-    if (response.ok) {
-      status.innerHTML = "Obrigado por visitar nosso site!!, seus resultados foram enviados aos desenvolvedores.";
-      form.reset()
-    } else {
-      response.json().then(data => {
-        if (Object.hasOwn(data, 'errors')) {
-          status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-        } else {
-          status.innerHTML = "Oops! ocorreu um erro ao enviar seus resultados, por favor contate os desenvolvedores"
-        }
-      })
-    }
-  }).catch(error => {
-    status.innerHTML = "Oops! ocorreu um erro ao enviar seus resultados, por favor contate os desenvolvedores"
-  });
-}
-form.addEventListener("submit", handleSubmit)
-</script>

@@ -1,4 +1,4 @@
-.introducao, .desenvolvimento, .energia, .projetos {
+.introducao, .desenvolvimento, .energia, .projetos, .final {
 	scroll-snap-align: start;
     align-items: center;
     display: flex;
@@ -25,3 +25,4 @@
         padding-bottom: 400px;
     }
 }
+
