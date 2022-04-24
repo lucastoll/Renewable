@@ -25,3 +25,15 @@
         translate: (calc(50% - 45px), 0);
     }
 }
+
+
+@media screen and (max-height: 600px){
+    .home__arrow--desktop{
+        animation: none;
+        display: none;
+    }
+
+    .home__background{
+        display: none;
+    }
+}

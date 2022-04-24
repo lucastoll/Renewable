@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     position: relative;
-    height: 100vh;
     scroll-snap-stop: always;
 	scroll-snap-align: start;
 
@@ -23,9 +22,3 @@
 }
 
 
-@media screen and (max-height: 650px) {
-    .home__section{
-        overflow: auto;
-        height: 300vh;
-    }    
-}

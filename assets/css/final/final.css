@@ -13,3 +13,14 @@
     text-align: left;
     margin-top: 10px;
 }
+
+.svg{
+    pointer-events: none;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
