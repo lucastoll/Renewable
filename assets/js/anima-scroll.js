@@ -8,14 +8,15 @@ var permissao = true;
 
 let options = {
   rootMargin: "0px",
-  threshold: 0.25
+  threshold: 0.1
 };
 
 const callback = (entries, observer) => {
   entries.forEach(entry => {
 const { target } = entry;
 
-if (entry.intersectionRatio >= 0.25) {
+console.log(entry.intersectionRatio)
+if (entry.intersectionRatio >= 0.1) {
 target.classList.add("is-visible");
 }
 
@@ -65,5 +66,5 @@ const animItem = bodymovin.loadAnimation({
   path: 'https://assets2.lottiefiles.com/packages/lf20_fehtbnef.json'
 });
 
-animItem.setSpeed(0.5);
+animItem.setSpeed(0.75);
 
