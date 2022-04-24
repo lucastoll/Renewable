@@ -3,7 +3,7 @@ const navbar = document.querySelector(".navbar");
 const home = document.getElementById("home");
 const lottie = document.getElementById("svg");
 const final = document.querySelector(".final");
-
+var permissao = true;
 
 
 let options = {
@@ -29,12 +29,17 @@ if(window.innerWidth > 1440){
     navbar.style.padding = "0px 17px"
   }  
 }  
-if(final.getBoundingClientRect().top < 1000)
+if(final.getBoundingClientRect().top < 1000 && permissao == true) 
 {
+  permissao = false;
   lottie.classList.remove("hide");
   setTimeout(()=>{
     animItem.goToAndPlay(0,true);
   }, 1000)
+
+  setTimeout(()=>{
+    permissao = true
+  }, 3000)
 }  
 
   });
