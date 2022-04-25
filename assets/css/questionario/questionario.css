@@ -243,11 +243,26 @@ h3 {
   }
 }
 
+nav .navbar{
+  padding: 0px 40px;
+}
 
+@media screen and (max-width: 1440px){
+  nav .navbar {
+      padding: 0 90px;
+  }
+}
 
 @media (max-width: 920px){
   nav .navbar {
-    max-width: 100%;
-    padding: 0 20px;
-}  
+      max-width: 100%;
+      padding: 0 35px;
+  }
 }
+
+@media (max-width: 370px) {
+  nav .navbar .nav-links {
+    max-width: 100%;
+  }
+}
+

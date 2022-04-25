@@ -15,7 +15,6 @@ const callback = (entries, observer) => {
   entries.forEach(entry => {
 const { target } = entry;
 
-console.log(entry.intersectionRatio)
 if (entry.intersectionRatio >= 0.1) {
 target.classList.add("is-visible");
 }

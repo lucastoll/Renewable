@@ -19,5 +19,4 @@ let ul = document.querySelector(".htmlCss-sub-menu");
 
 li.onclick = function () {
   navLinks.classList.toggle("show1");
-  ul.style.animation = "altura 10s ease-in;" /* Fodase */
 }
