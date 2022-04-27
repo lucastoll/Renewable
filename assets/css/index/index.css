@@ -62,3 +62,10 @@ body {
 .spanBiomassa{
     color: #491800;
 }
+
+@media screen and (max-width: 1024px) {
+    .scroll-container{
+        scroll-snap-type: none;
+        -ms-scroll-snap-type: none;
+    }
+}

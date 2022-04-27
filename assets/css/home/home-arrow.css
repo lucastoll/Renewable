@@ -12,10 +12,16 @@
 
 @keyframes anima__arrow__desktop {
     0%{
-        top: 700px;
+        top: 95vh;
     }
     100%{
-        top: 800px;
+        top: 100vh;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .home__arrow--desktop{
+        display: none;
     }
 }
 

@@ -23,8 +23,14 @@
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .section__arrow{
+        display: none;
+    }
+}
 
-@media screen and (min-width: 1023px) {
+
+@media screen and (min-width: 1024px) {
     .section__arrow{
         justify-self: flex-end;
         position: absolute;

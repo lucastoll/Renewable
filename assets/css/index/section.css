@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 400px;
-    scroll-snap-stop: always;
+    scroll-snap-stop: proximity;
     text-align: justify;
     padding-top: 100px;
     padding-bottom: 700px;
@@ -16,12 +16,21 @@
     text-align: center;
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (max-width: 1023px) {
+    .introducao, .desenvolvimento, .energia, .projetos, .final
+    {
+        padding-top: 50px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
     .section__titulo{
         font-size: 46px;
     }
 
-    .introducao, .desenvolvimento, .energia, .projetos{
+    .introducao, .desenvolvimento, .energia, .projetos, .final{
         padding-bottom: 400px;
     }
 }
