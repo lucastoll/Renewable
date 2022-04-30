@@ -4,7 +4,13 @@
     position: relative;
     scroll-snap-stop: always;
 	scroll-snap-align: start;
+    height: 100vh;
+}
 
+@media screen and (max-height: 700px){
+    .home__section{
+        height: auto;
+    }
 }
 
 @media screen and (min-width: 1024px){

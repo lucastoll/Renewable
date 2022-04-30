@@ -1,4 +1,24 @@
 
+.home__arrow--mobile{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation: anima__arrow__mobile 2s alternate infinite;
+}
+
+
+@keyframes anima__arrow__mobile{
+    0%{
+        bottom: -50px;
+    }
+    100%{
+        bottom: -100px;
+    }
+}
+
 .home__arrow--desktop{
     display: block;
     position: absolute;
@@ -10,14 +30,16 @@
     animation: anima__arrow__desktop 2s alternate infinite;
 }
 
-@keyframes anima__arrow__desktop {
+@keyframes anima__arrow__desktop{
     0%{
-        top: 95vh;
+        top: 700px;
     }
     100%{
-        top: 100vh;
+        top: 800px;
     }
 }
+
+
 
 @media screen and (max-width: 1023px) {
     .home__arrow--desktop{
@@ -26,20 +48,16 @@
 }
 
 @media screen and (min-width: 1024px){
-    .home__arrow--desktop{
-        left: calc(50% - 45px);
-        translate: (calc(50% - 45px), 0);
+    .home__arrow--mobile{
+        display: none;
     }
+    
 }
 
 
 @media screen and (max-height: 600px){
     .home__arrow--desktop{
         animation: none;
-        display: none;
-    }
-
-    .home__background{
         display: none;
     }
 }

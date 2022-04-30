@@ -14,7 +14,6 @@
 @media screen and (min-width: 1024px){
     .home__background{
         display: flex;
-        height: 100%;
         margin-top: 100px;
     }
 }
@@ -23,22 +22,6 @@
     .home__background{
         width: 700px;
         height: 700px;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 }
-
-/* @media screen and (min-width: 1224px){
-    .home__background{
-        width: 800px;
-        height: 800px;
-    }
-} */
-/* 
-@media screen and (min-width: 1324px){
-    .home__background{
-        width: 900px;
-        height: 900px;
-    }
-}
-
- */

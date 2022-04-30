@@ -26,11 +26,6 @@
     }    
 }
 
-@media screen and (max-height: 500px) {
-    .home__divlogo{
-        margin-top: 50px;
-    }    
-}
 
 
 @keyframes gira {
