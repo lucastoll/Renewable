@@ -30,6 +30,13 @@
 
     .introducao, .desenvolvimento, .energia, .projetos, .final{
         padding-bottom: 400px;
+        padding-top: 30px;
     }
+
+    .section__titulo{
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+    }
+    
 }
 
