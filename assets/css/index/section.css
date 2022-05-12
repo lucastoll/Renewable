@@ -3,10 +3,9 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 400px;
+    padding-top: 80px;
     scroll-snap-stop: proximity;
     text-align: justify;
-    padding-bottom: 700px;
 }
 
 .section__titulo{
@@ -26,11 +25,6 @@
 @media screen and (min-width: 1024px) {
     .section__titulo{
         font-size: 46px;
-    }
-
-    .introducao, .desenvolvimento, .energia, .projetos, .final{
-        padding-bottom: 400px;
-        padding-top: 30px;
     }
 
     .section__titulo{

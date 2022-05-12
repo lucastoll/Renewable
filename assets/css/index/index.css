@@ -22,8 +22,6 @@ body {
 
 .scroll-container {
 	height: 100vh;
-	scroll-snap-type: y mandatory;
-    -ms-scroll-snap-type: mandatory;
     overflow-x: hidden;
 }
 
@@ -63,9 +61,3 @@ body {
     color: #491800;
 }
 
-@media screen and (max-width: 1024px) {
-    .scroll-container{
-        scroll-snap-type: none;
-        -ms-scroll-snap-type: none;
-    }
-}
