@@ -1,5 +1,4 @@
 .energia{
-    padding: 0px 70px;
     position: relative;
     font-size: 18px;
     height: auto;
@@ -8,9 +7,8 @@
 
 @media screen and (max-width: 1023px) {
     .energia{
-        padding: 30px;
+        padding: 0px 30px;
         font-size: 16px;
-        padding-bottom: 700px;
     }
 }
 

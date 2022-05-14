@@ -3,10 +3,16 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
     scroll-snap-stop: proximity;
     text-align: justify;
+    position: relative;
 }
+
+#introducao, #desenvolvimento, #energia, #projetos, #final {
+    position: absolute;
+    top: -100px;
+}
+
 
 .section__titulo{
     font-size: 24px;

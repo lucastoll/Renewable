@@ -1,3 +1,10 @@
+document.querySelectorAll('.opcao').forEach(item => {
+    item.addEventListener('click', event => {
+      item.children[0].click()
+    })
+  })
+
+
 var answers = {};
 
 var question_one = document.getElementById('question-1');
