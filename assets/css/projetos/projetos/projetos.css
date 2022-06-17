@@ -7,6 +7,7 @@
     display: flex;
     gap: 80px;
     align-items: center;
+    width: 100%;
 }
 
 .projetos__box:nth-of-type(even){
@@ -17,8 +18,12 @@
     background: #B3CCFF;
 }
 
+.projetos__box__esquerda{
+    width: 100%;
+}
+
 .projetos__box__esquerda__titulo{
-    font-size: 48px;
+    font-size: 20px;
 }
 .projetos__box__esquerda__paragrafo{
     font-size: 18px;
@@ -30,10 +35,56 @@
     margin: 30px 0px;
 }
 
+.projetos__box__esquerda__ul{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+}
 
 .projetos__box__img{
-    margin-top: 105px;
-    align-self: flex-start;
+    margin-top: 20px;
+    max-width: 100%;
+    align-self: center;
+}
+
+.projetos__box__img__desktop{
+    display: none;
+}
+
+
+@media screen and (min-width: 800px) {
+    .projetos__box__esquerda__ul{
+        flex-direction: row;
+    }
+
+    .projetos__box__img{
+        align-self: flex-start;
+        max-width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .projetos__box__img{
+        display: none;
+    }
+
+    .projetos__box__img__desktop{
+        display: block;
+        max-width: 40%;
+        margin-top: 30px;
+        margin-left: 40px;
+        width: 500px;
+        height: 480px;
+        
+    }
+    
+    .projetos__box__esquerda__desktopWrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
 .projetos__box__esquerda__linkrelatorio:link {
@@ -56,13 +107,21 @@
 
 
 .projetos__box ul{
-    list-style: inside;
-    list-style-position: inside;
+    list-style: square;
+    list-style-position: square;
 }
 
 .projetos__box ul li{
+    margin-left: 20px;
+}
+
+.projetos__box ul li p{
     font-size: 18px;
-    margin-left: 15px;
+    text-transform: capitalize;
+}
+
+.projetos__box__esquerda__titulo{
+    text-align: center;
 }
 
 @media screen and (max-width: 1023px) {
@@ -71,23 +130,14 @@
         gap: 0px;
         padding: 30px;
     }
-    
-    .projetos__box__img{
-        align-self: center;
-        margin-top: 30px;
-        width: 100%;
-    }
 
-    .projetos__box__esquerda__titulo{
-        text-align: center;
-    }
 
-    .projetos__box ul li{
+    .projetos__box ul li p{
         font-size: 16px;
     }
 
     .projetos__box__esquerda__titulo{
-        font-size: 36px;
+        font-size: 20px;
     }
     .projetos__box__esquerda__paragrafo{
         font-size: 16px;

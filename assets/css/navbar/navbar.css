@@ -33,6 +33,8 @@ nav .navbar {
   padding: 0 55px;
 }
 
+
+
 @media screen and (max-width: 1440px) {
   nav .navbar{
     padding: 0 90px;
