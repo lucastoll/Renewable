@@ -46,7 +46,7 @@ O projeto em questão foi tem como finalidade educar sobre as energias renováve
   O lottie é uma biblioteca onde existem varias animações prontas, no site foi utilizada apenas uma no final da home, manipulada para dar play quando o usuário chega na animação com o scroll. 
   <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">OwlCarousel</a></li>
   Carousel utilizado na explicação de cada tipo de energia renovável.
-  <li><a href="figma.com" target="_blank">Figma</a></li>
+  <li><a href="https://figma.com" target="_blank">Figma</a></li>
   <div>
   Utilizado para desenvolver o protótipo do site no mobile / desktop.
   <br>Link: https://www.figma.com/file/38cBXS0WH6BPvvmV6SNHiR/Renewable?node-id=0%3A1
