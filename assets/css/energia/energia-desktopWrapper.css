@@ -1,6 +1,18 @@
 .energia__desktopWrapper{
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
+}
+
+@media screen and (min-width: 1024px) {
+    .energia__desktopWrapper{
+        padding: 0 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .energia__desktopWrapper{
+        padding: 0px;
+    }
 }
