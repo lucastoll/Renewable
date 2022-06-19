@@ -2,15 +2,13 @@
 
 Link: https://renewableupx.netlify.app
 
+## ▶ Video Pitch - YouTube.
+Clique na imagem para ser redirecionado para o vídeo. <br>
+[![Vídeo Pitch](https://user-images.githubusercontent.com/86172649/174493477-5211c6fe-31e2-4e15-bee8-53d2cbfc4bbe.PNG)](https://www.youtube.com/watch?v=d_2StmxKlGc)
+
 ## 📗 Relatório completo - 42 páginas.
 
 [Renewable.pdf](https://github.com/lucastoll/Renewable/files/8935906/UPx3.pdf)
-
-
-## ▶ Video Pitch - YouTube.
-Clique na imagem para ser redirecionado para o vídeo. <br>
-[![Vídeo Pitch](https://user-images.githubusercontent.com/86172649/174489513-5823c80e-0e8e-4881-ae05-56b9f9c4e642.PNG)](https://www.youtube.com/watch?v=d_2StmxKlGc)
-
 
 ## 🟩 O que é
 
@@ -40,9 +38,40 @@ O projeto em questão foi tem como finalidade educar sobre as energias renováve
   <li>HTML</li>
   <li>CSS</li>
   <li>JS</li>
-  <a href="https://formspree.io" target="_blank"><h3>Formspree</h3></a>
-  Utilizado para construir um quiz no site em formato de formulário HTML e então obter a quantidade de acertos de cada usuários através da submissão do formulário para o link do Formspree
-  <li>
+  <li><a href="https://formspree.io" target="_blank">Formspree</a></li>
+  Utilizado para construir um quiz no site em formato de formulário HTML e então obter a quantidade de acertos de cada usuário no quiz através da submissão do envio do formulário para o link do Formspree<br>
+  <li><a href="https://storyset.com" target="_blank">Storyset</a></li>
+  Ilustrações animadas prontas utilizadas no hero da home e da página projetos
+  <li><a href="https://lottiefiles.com" target="_blank">Lottie</a></li>
+  O lottie é uma biblioteca onde existem varias animações prontas, no site foi utilizada apenas uma no final da home, manipulada para dar play quando o usuário chega na animação com o scroll. 
+  <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" target="_blank">OwlCarousel</a></li>
+  Carousel utilizado na explicação de cada tipo de energia renovável.
+  <li><a href="figma.com" target="_blank">Figma</a></li>
+  <div>
+  Utilizado para desenvolver o protótipo do site no mobile / desktop.
+  <br>Link: https://www.figma.com/file/38cBXS0WH6BPvvmV6SNHiR/Renewable?node-id=0%3A1
+  </div>
+  
+
+![figma](https://user-images.githubusercontent.com/86172649/174493201-721027ed-9090-4363-97d1-b393485c73a6.png)
+
+
+
+</ul>
+  
+## 🙋‍♂️ Contribuidores
+  Kauan da Silva Vieira - Pesquisa energia da biomassa<br><br>
+  Kauan Fernandes Oliveira - Pesquisa energia solar<br><br>
+  Lucas Fernandes Tolotto - Pesquisa seção introdução e código<br><br>
+  Luiz Pereira Reis - Pesquisa energia maremotriz<br><br>
+  Matheus Parizotto Martins - Pesquisa energia eólica<br><br>
+  Pedro Henrique Todineyb Santos - Pesquisa energia geotérmica<br><br>
+  Rafael Ramos do Rosário - Pesquisa energia hídrica<br><br>
+  
+
+
+    
+
   
   
 
