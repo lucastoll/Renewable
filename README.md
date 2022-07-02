@@ -12,7 +12,7 @@ Clique na imagem para ser redirecionado para o vídeo. <br>
 
 ## 🟩 O que é
 
-O projeto em questão tem como finalidade educar sobre as energias renováveis focando em um público-alvo mais jovem, utilizando uma didática menos têcnica e mais dinâmica, de maneira que no site são utilizadas figuras, animações e um quiz para atingir esse propósito. 
+O projeto em questão tem como finalidade educar sobre as energias renováveis focando em um público-alvo mais jovem, utilizando uma didática menos técnica e mais dinâmica, de maneira que no site são utilizadas figuras, animações e um quiz para atingir esse propósito. 
 
 <ul>
   <h2>Tópicos abordados</h2>
