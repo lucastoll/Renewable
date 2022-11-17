@@ -4,7 +4,7 @@ Link: https://renewableupx.netlify.app
 
 ## ▶ Video Pitch - YouTube.
 Clique na imagem para ser redirecionado para o vídeo. <br>
-[![Vídeo Pitch](https://user-images.githubusercontent.com/86172649/174493477-5211c6fe-31e2-4e15-bee8-53d2cbfc4bbe.PNG)](https://www.youtube.com/watch?v=d_2StmxKlGc)
+[![Vídeo Pitch](https://user-images.githubusercontent.com/86172649/174493477-5211c6fe-31e2-4e15-bee8-53d2cbfc4bbe.PNG)](https://www.youtube.com/watch?v=JLvIf2H49cI)
 
 ## 📗 Relatório completo - 42 páginas.
 
